@@ -1,0 +1,158 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+html {
+	height: 100%;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+@font-face {
+    font-family: 'Poppins';
+    src: url("../fonts/Poppins-Regular.ttf")
+}
+
+
+
+
+.header {
+    background-color: black;
+    width:100%;
+    height: 90px;
+}
+
+.nav {
+    width: 1200px;
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo {
+    padding: 30px 32px 30px 32px;
+    float: left;
+}
+
+.menu {
+    margin: 33px 31px 0px 260px;
+    line-height: 31px;
+    float: left;
+}
+
+.action {
+    display: inline;
+    padding-right: 31px;
+    font-family: 'Poppins';
+    font-size: 15px;
+    color: white;
+}
+
+.nav button {
+    width: 155px;
+    height: 42px;
+    margin: 24px 20px 24px 20px;
+    border-radius: 14px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    float: right;
+    background-color: white;
+    border: white;
+
+}
+
+
+
+
+.first {
+    width: 100%;
+    height: 800px;
+    background-color: black;
+    background-image: url(../photo/background.jpg);
+    background-size:cover;
+}
+
+.text {
+    font-family: 'Poppins';
+    color: white;
+    text-align: center;
+    padding: 440px 420px 60px 420px;
+}
+
+.text1 {
+    font-size: 14px;
+}
+
+.text2 {
+    font-size: 54px;
+}
+
+.text3 {
+    font-size: 14px;
+}
+
+.photo {
+    margin:4px 22px 40px 1160px
+}
+
+.photo1 {
+    width: 70px;
+    height: 16px;  
+}
+
+.photo2 {
+    width: 40px;
+    height: 16px;
+    margin:0 0 0 16px
+}
+
+.photo3 {
+    width: 58px;
+    height: 16px;
+    margin:0 0 0 16px
+}
+
+.photo4 {
+    width: 63px;
+    height: 16px;
+    margin:0 22px 0 16px
+}
