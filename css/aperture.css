@@ -61,11 +61,52 @@ table {
     height: 90px;
 }
 
-.nav {
-    width: 1200px;
-    height: 90px;
-    margin-left: auto;
-    margin-right: auto;
+@media screen and (max-width:1102px) {
+    .header {
+        height: 60px;
+    }
+}
+
+@media screen and (max-width:878px) {
+    .header {
+        height: 50px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .header {
+        height: 40px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .header {
+        height: 35px;
+    }
+}
+
+@media screen and (max-width:464px) {
+    .header {
+        height: 30px;
+    }
+}
+
+@media screen and (max-width:369px) {
+    .header {
+        height: 50px;
+    }
+}
+
+@media screen and (max-width:289px) {
+    .header {
+        height: 70px;
+    }
+}
+
+@media screen and (max-width:191px) {
+    .header {
+        height: 85px;
+    }
 }
 
 .logo {
@@ -73,10 +114,142 @@ table {
     float: left;
 }
 
+@media screen and (max-width:1102px) {
+    .logo {
+        padding: 20px 27px 20px 32px; 
+    }
+}
+
+@media screen and (max-width:878px) {
+    .logo {
+        padding: 15px 27px 25px 32px; 
+    }
+}
+
+@media screen and (max-width:748px) {
+    .logo {
+        padding: 15px 15px 25px 27px; 
+    }
+}
+
+@media screen and (max-width:644px) {
+    .logo {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .logo {
+        padding-top: 5px;
+        padding-left: 15px;
+    }
+}
+
+@media screen and (max-width:369px) {
+    .logo {
+float: none;
+padding-bottom: 0px;
+    }
+}
+
+@media screen and (max-width:1102px) {
+    .aperture-logo {
+    width: 100px;  
+    margin-top: 0px; 
+    }
+}
+
+@media screen and (max-width:878px) {
+    .aperture-logo {
+    width: 70px;   
+    }
+}
+
+@media screen and (max-width:748px) {
+    .aperture-logo {
+    width: 55px;  
+    }
+}
+
+@media screen and (max-width:644px) {
+    .aperture-logo {
+    width: 40px;  
+    }
+}
+
+@media screen and (max-width:464px) {
+    .aperture-logo {
+    width: 35px;  
+    }
+}
+
 .menu {
-    margin: 33px 31px 0px 260px;
+    margin: 30px 31px 0px 260px;
     line-height: 31px;
     float: left;
+}
+
+@media screen and (max-width:1212px) {
+    .menu {
+    margin-left: 200px; 
+    margin-top: 27px;   
+    }
+}
+
+@media screen and (max-width:1152px) {
+    .menu {
+    margin-left: 150px; 
+    margin-top: 27px;   
+    }
+}
+
+@media screen and (max-width:1102px) {
+    .menu {
+        margin-top: 15px;
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width:878px) {
+    .menu {
+        margin-top: 6px;
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .menu {
+        margin-top: 3px;
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .menu {
+        margin-top: 0px;
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width:464px) {
+    .menu {
+        margin-left: 20px;
+        margin-top: -5px;
+    }
+}
+
+@media screen and (max-width:369px) {
+    .menu {
+        margin-left: 15px;
+        margin-top: -10px;
+    }
+}
+
+@media screen and (max-width:289px) {
+    .menu {
+        float: none;
+    }
 }
 
 .action {
@@ -87,7 +260,59 @@ table {
     color: white;
 }
 
-.nav button {
+@media screen and (max-width:1102px) {
+    .action {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:1102px) {
+    .action {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:878px) {
+    .action {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .action {
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .action {
+        font-size: 6px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width:464px) {
+    .action {
+        font-size: 5px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width:297px) {
+    .action {
+        font-size: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media screen and (max-width:191px) {
+    .action {
+        display: block;
+        height: 10px;
+    }
+}
+
+.nav-button {
     width: 155px;
     height: 42px;
     margin: 24px 20px 24px 20px;
@@ -97,62 +322,3394 @@ table {
     float: right;
     background-color: white;
     border: white;
-
 }
 
+@media screen and (max-width:1102px) {
+    .nav-button {
+        width: 105px;
+        height: 28px;
+        font-size: 12px;
+        margin: 15px 20px 24px 20px;
+    }
+}
 
+@media screen and (max-width:878px) {
+    .nav-button {
+        width: 83px;
+        height: 22px;
+        font-size: 9px;
+        margin: 13px 20px 24px 20px;
+    }
+}
 
+@media screen and (max-width:748px) {
+    .nav-button {
+        width: 65px;
+        height: 19px;
+        font-size: 7px;
+        margin: 10px 20px 24px 20px;
+    }
+}
 
-.first {
+@media screen and (max-width:644px) {
+    .nav-button {
+        width: 50px;
+        height: 15px;
+        font-size: 5px;
+        margin: 11px 20px 24px 20px;
+    }
+}
+
+@media screen and (max-width:464px) {
+    .nav-button {
+        width: 47px;
+        height: 14px;
+        font-size: 4px;
+        margin: 8px 20px 24px 20px;
+    }
+}
+
+@media screen and (max-width:369px) {
+    .nav-button {
+        margin-top: 2px;
+    }
+}
+
+@media screen and (max-width:289px) {
+    .nav-button {
+        float: none;
+        margin-left: 13px;
+    }
+}
+
+@media screen and (max-width:191px) {
+    .nav-button {
+        margin-top: 12px;
+    }
+}
+
+.main .home {
     width: 100%;
     height: 800px;
     background-color: black;
-    background-image: url(../photo/background.jpg);
-    background-size:cover;
+    background-image: url(../photo/background-ocean.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-.text {
+@media screen and (max-width:1102px) {
+    .main .home {
+        height: 700px;
+    }
+}
+
+@media screen and (max-width:878px) {
+    .main .home {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .home {
+        height: 480px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .home {
+        height: 370px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .home {
+        height: 300px;
+    }
+}
+
+.main .home .text {
     font-family: 'Poppins';
-    color: white;
     text-align: center;
     padding: 440px 420px 60px 420px;
 }
 
-.text1 {
-    font-size: 14px;
+@media screen and (max-width:1500px) {
+    .main .home .text {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }
 
-.text2 {
+@media screen and (max-width:1102px) {
+    .main .home .text {
+        padding-top: 380px;
+    }
+}
+
+@media screen and (max-width:878px) {
+    .main .home .text {
+        padding-top: 300px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .home .text {
+        padding-top: 230px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .home .text {
+        padding-top: 180px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .home .text {
+        padding-top: 120px;
+    }
+}
+
+.main .home .text .about {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #C0C0C0;
+    background-color: transparent;
+}
+
+@media screen and (max-width:1102px) {
+    .main .home .text .about {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:878px) {
+    .main .home .text .about {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .home .text .about {
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .home .text .about {
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width:464px) {
+    .main .home .text .about {
+        font-size: 6px;
+    }
+}
+
+.main .home .text .headline {
     font-size: 54px;
+    color: white;
 }
 
-.text3 {
+@media screen and (max-width:1102px) {
+    .main .home .text .headline {
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width:878px) {
+    .main .home .text .headline {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .home .text .headline {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .home .text .headline {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width:464px) {
+    .main .home .text .headline {
+        font-size: 20px;
+    }
+}
+
+.main .home .text .description {
     font-size: 14px;
+    color: #C0C0C0;
+    display: block;
+    padding-top: 30px;
 }
 
-.photo {
-    margin:4px 22px 40px 1160px
+@media screen and (max-width:1102px) {
+    .main .home .text .description {
+        font-size: 12px;
+    }
 }
 
-.photo1 {
+@media screen and (max-width:878px) {
+    .main .home .text .description {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .home .text .description {
+        font-size: 8px;
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .home .text .description {
+        font-size: 7px;
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width:464px) {
+    .main .home .text .description {
+        font-size: 6px;
+        padding-top: 15px;
+    }
+}
+
+.main .home .photo {
+    float: right;
+    margin:4px 22px 40px 0px;
+}
+
+@media screen and (max-width:1102px) {
+    .main .home .photo {
+    margin-top: -10px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .home .photo {
+    margin-top: -20px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .home .photo {
+    margin-top: -30px;
+    }
+}
+
+@media screen and (max-width:464px) {
+    .main .home .photo {
+    margin-right: 0px;
+    }
+}
+
+@media screen and (max-width:286px) {
+    .main .home .photo {
+    margin-top: -50px;
+    }
+}
+
+.main .home .photo .photo1 {
     width: 70px;
     height: 16px;  
 }
 
-.photo2 {
+@media screen and (max-width:1102px) {
+    .main .home .photo .photo1 {
+    width: 60px;
+    height: 14px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .home .photo .photo1 {
+    width: 50px;
+    height: 12px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .home .photo .photo1 {
+    width: 40px;
+    height: 10px;
+    }
+}
+
+@media screen and (max-width:464px) {
+    .main .home .photo .photo1 {
+    display: block;
+    padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-width:286px) {
+    .main .home .photo .photo1 {
+    width: 20px;
+    height: 6px;
+    }
+}
+
+.main .home .photo .photo2 {
     width: 40px;
     height: 16px;
     margin:0 0 0 16px
 }
 
-.photo3 {
+@media screen and (max-width:1102px) {
+    .main .home .photo .photo2 {
+    width: 35px;
+    height: 14px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .home .photo .photo2 {
+    width: 30px;
+    height: 12px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .home .photo .photo2 {
+    width: 25px;
+    height: 10px;
+    }
+}
+
+@media screen and (max-width:464px) {
+    .main .home .photo .photo2 {
+    display: block;
+    padding-bottom: 5px;
+    margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:286px) {
+    .main .home .photo .photo2 {
+    width: 10px;
+    height: 6px;
+    }
+}
+
+.main .home .photo .photo3 {
     width: 58px;
     height: 16px;
     margin:0 0 0 16px
 }
 
-.photo4 {
+@media screen and (max-width:1102px) {
+    .main .home .photo .photo3 {
+    width: 50px;
+    height: 14px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .home .photo .photo3 {
+    width: 40px;
+    height: 12px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .home .photo .photo3 {
+    width: 30px;
+    height: 10px;
+    }
+}
+
+@media screen and (max-width:464px) {
+    .main .home .photo .photo3 {
+    display: block;
+    padding-bottom: 5px;
+    margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:286px) {
+    .main .home .photo .photo3 {
+    width: 15px;
+    height: 6px;
+    }
+}
+
+.main .home .photo .photo4 {
     width: 63px;
     height: 16px;
     margin:0 22px 0 16px
+}
+
+@media screen and (max-width:1102px) {
+    .main .home .photo .photo4 {
+    width: 53px;
+    height: 14px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .home .photo .photo4 {
+    width: 43px;
+    height: 12px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .home .photo .photo4 {
+    width: 33px;
+    height: 10px;
+    }
+}
+
+@media screen and (max-width:464px) {
+    .main .home .photo .photo4 {
+    display: block;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:286px) {
+    .main .home .photo .photo4 {
+    width: 15px;
+    height: 6px;
+    }
+}
+
+.activities {
+    background-color: black;
+    width:100%;
+    height: 1558px;
+}
+
+@media screen and (max-width:1264px) {
+    .main .activities  {
+        height: 1470px;
+    }
+}
+
+@media screen and (max-width:1182px) {
+    .main .activities  {
+        height: 1300px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .activities  {
+        height: 1000px;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .main .activities  {
+        height: 1800px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .activities  {
+        height: 1350px;
+    }
+}
+
+.main .activities .headline {
+    color: white;
+    font-size: 40px;
+    font-family: 'Poppins';
+    text-align: center;
+    padding-top: 125px;
+}
+
+@media screen and (max-width:1264px) {
+    .main .activities .headline {
+    font-size: 35px;
+    padding-top: 80px;
+    }
+}
+
+@media screen and (max-width:1182px) {
+    .main .activities .headline {
+    font-size: 30px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .activities .headline {
+    font-size: 25px;
+    padding-top: 60px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .activities .headline {
+    font-size: 19px;
+    padding-top: 40px;
+    }
+}
+
+.main .activities .description {
+    color: #C0C0C0;
+    font-size: 23px;
+    font-family: 'Poppins';
+    text-align: center;
+    padding-top: 15px;
+}
+
+@media screen and (max-width:1264px) {
+    .main .activities .description {
+    font-size: 19px;
+    }
+}
+
+@media screen and (max-width:1182px) {
+    .main .activities .description {
+    font-size: 16px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .activities .description {
+    font-size: 13px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .activities .description {
+    font-size: 10px;
+    }
+}
+
+.main .activities .photo {
+    display: inline;
+}
+
+@media screen and (max-width:780px) {
+    .main .activities .photo {
+    display: grid;
+    grid-gap: 10px;
+    }
+}
+
+.main .activities .photo .gadgets {
+    position: relative;
+    display: inline-block;
+    width: 576px;
+    height: 600px;
+    margin-top: 42px;
+    margin-left: 168px;
+    background-color: black;
+    background-image: url(../photo/gadgets.jpg);
+    background-size:cover;
+}
+
+@media screen and (max-width:1510px) {
+    .main .activities .photo .gadgets {
+        margin-left: 150px;
+    }
+}
+
+@media screen and (max-width:1490px) {
+    .main .activities .photo .gadgets {
+        margin-left: 120px;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .main .activities .photo .gadgets {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .main .activities .photo .gadgets {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width:1360px) {
+    .main .activities .photo .gadgets {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width:1320px) {
+    .main .activities .photo .gadgets {
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width:1264px) {
+    .main .activities .photo .gadgets {
+        width: 536px;
+        height: 550px;
+    }
+}
+
+@media screen and (max-width:1182px) {
+    .main .activities .photo .gadgets {
+        width: 436px;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .activities .photo .gadgets {
+        width: 336px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .main .activities .photo .gadgets {
+        justify-self: center;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .activities .photo .gadgets {
+        width: 236px;
+        height: 250px;
+    }
+}
+
+.main .activities .photo .gadgets .headline {
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 421px;
+    font-size: 14px;
+    font-family: 'Poppins';
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width:1264px) {
+    .main .activities .photo .gadgets .headline {
+        padding-top: 380px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .activities .photo .gadgets .headline {
+        padding-top: 300px;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .activities .photo .gadgets .headline {
+        padding-top: 200px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .activities .photo .gadgets .headline {
+        padding-top: 150px;
+        font-size: 7px;
+    }
+}
+
+.main .activities .photo .gadgets .description {
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 451px;
+    font-size: 14px;
+    font-family: 'Poppins';
+    text-align: left;
+    color: #C0C0C0;
+}
+
+@media screen and (max-width:1264px) {
+    .main .activities .photo .gadgets .description {
+        padding-top: 410px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .activities .photo .gadgets .description {
+        padding-top: 330px;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .activities .photo .gadgets .description {
+        padding-top: 230px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .activities .photo .gadgets .description {
+        padding-top: 170px;
+        font-size: 7px;
+    }
+}
+
+.main .activities .photo .gadgets .button {
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 528px;
+}
+
+@media screen and (max-width:1264px) {
+    .main .activities .photo .gadgets .button {
+        padding-top:480px;
+        height: 40px;
+        width: 130px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .activities .photo .gadgets .button {
+        padding-top:380px;
+        height: 35px;
+        width: 110px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .activities .photo .gadgets .button {
+        padding-top:300px;
+        height: 30px;
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .activities .photo .gadgets .button {
+        padding-top:220px;
+        height: 20px;
+        width: 70px;
+    }
+}
+
+.main .activities .photo .building {
+    position: relative;
+    display: flex;
+    float: right;
+    width: 576px;
+    height: 600px;
+    margin-top: 42px;
+    margin-right: 168px;
+    background-color: black;
+    background-image: url(../photo/building.jpg);
+    background-size:cover;
+}
+
+@media screen and (max-width:1510px) {
+    .main .activities .photo .building {
+        margin-right: 150px;
+    }
+}
+
+@media screen and (max-width:1490px) {
+    .main .activities .photo .building {
+        margin-right: 120px;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .main .activities .photo .building {
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width:1410px) {
+    .main .activities .photo .building {
+        margin-right: 80px;
+    }
+}
+
+@media screen and (max-width:1360px) {
+    .main .activities .photo .building {
+        margin-right: 60px;
+    }
+}
+
+@media screen and (max-width:1320px) {
+    .main .activities .photo .building {
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width:1264px) {
+    .main .activities .photo .building {
+        width: 536px;
+        height: 550px;
+    }
+}
+
+@media screen and (max-width:1182px) {
+    .main .activities .photo .building {
+        width: 436px;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .activities .photo .building {
+        width: 336px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .main .activities .photo .building {
+    float: none;
+    justify-self: center;
+    margin-right: 0px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .activities .photo .building {
+        width: 236px;
+        height: 250px;
+    }
+}
+
+.main .activities .photo .building .headline {
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 421px;
+    font-size: 14px;
+    font-family: 'Poppins';
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width:1264px) {
+    .main .activities .photo .building .headline {
+        padding-top: 380px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .activities .photo .building .headline {
+        padding-top: 300px;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .activities .photo .building .headline {
+        padding-top: 200px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .activities .photo .building .headline {
+        padding-top: 150px;
+        font-size: 7px;
+    }
+}
+
+.main .activities .photo .building .description {
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 451px;
+    font-size: 14px;
+    font-family: 'Poppins';
+    text-align: left;
+    color: #C0C0C0;
+}
+
+@media screen and (max-width:1264px) {
+    .main .activities .photo .building .description {
+        padding-top: 410px;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:1181px) {
+    .main .activities .photo .building .description {
+        padding-top: 330px;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .activities .photo .building .description {
+        padding-top: 230px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .activities .photo .building .description {
+        padding-top: 170px;
+        font-size: 7px;
+    }
+}
+
+.main .activities .photo .building .button {
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 528px;
+}
+
+@media screen and (max-width:1264px) {
+    .main .activities .photo .building .button {
+        padding-top:480px;
+        height: 40px;
+        width: 130px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .activities .photo .building .button {
+        padding-top:380px;
+        height: 35px;
+        width: 110px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .activities .photo .building .button {
+        padding-top:300px;
+        height: 30px;
+        width: 90px;
+    }
+}
+
+
+@media screen and (max-width:644px) {
+    .main .activities .photo .building .button {
+        padding-top:220px;
+        height: 20px;
+        width: 70px;
+    }
+}
+
+.main .activities .photo .forest {
+    position: relative;
+    display: inline-block;
+    width: 576px;
+    height: 600px;
+    margin-top: 42px;
+    margin-left: 168px;
+    background-color: black;
+    background-image: url(../photo/forest.jpg);
+    background-size:cover;
+}
+
+@media screen and (max-width:1510px) {
+    .main .activities .photo .forest {
+        margin-left: 150px;
+    }
+}
+
+@media screen and (max-width:1490px) {
+    .main .activities .photo .forest {
+        margin-left: 130px;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .main .activities .photo .forest {
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .main .activities .photo .forest {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width:1360px) {
+    .main .activities .photo .forest {
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width:1320px) {
+    .main .activities .photo .forest {
+        margin-left: 40px;
+    }
+}
+
+
+@media screen and (max-width:1264px) {
+    .main .activities .photo .forest {
+        width: 536px;
+        height: 550px;
+    }
+}
+
+@media screen and (max-width:1182px) {
+    .main .activities .photo .forest {
+        width: 436px;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .activities .photo .forest {
+        width: 336px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .main .activities .photo .forest {
+        justify-self: center;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .activities .photo .forest {
+        width: 236px;
+        height: 250px;
+    }
+}
+
+.main .activities .photo .forest .headline {
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 421px;
+    font-size: 14px;
+    font-family: 'Poppins';
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width:1264px) {
+    .main .activities .photo .forest .headline {
+        padding-top: 380px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .activities .photo .forest .headline {
+        padding-top: 290px;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .activities .photo .forest .headline {
+        padding-top: 180px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .activities .photo .forest .headline {
+        padding-top: 140px;
+        font-size: 7px;
+    }
+}
+
+.main .activities .photo .forest .description {
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 451px;
+    font-size: 14px;
+    font-family: 'Poppins';
+    text-align: left;
+    color: #C0C0C0;
+}
+
+@media screen and (max-width:1264px) {
+    .main .activities .photo .forest .description {
+        padding-top: 410px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .activities .photo .forest .description {
+        padding-top: 320px;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .activities .photo .forest .description {
+        padding-top: 210px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .activities .photo .forest .description {
+        padding-top: 160px;
+        font-size: 7px;
+    }
+}
+
+.main .activities .photo .forest .button {
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 528px;
+}
+
+@media screen and (max-width:1264px) {
+    .main .activities .photo .forest .button {
+        padding-top:480px;
+        height: 40px;
+        width: 130px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .activities .photo .forest .button {
+        padding-top:380px;
+        height: 35px;
+        width: 110px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .activities .photo .forest .button {
+        padding-top:300px;
+        height: 30px;
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .activities .photo .forest .button {
+        padding-top:220px;
+        height: 20px;
+        width: 70px;
+    }
+}
+
+.main .activities .photo .animal {
+    position: relative;
+    display: inline-block;
+    float: right;
+    width: 576px;
+    height: 600px;
+    margin-top: 42px;
+    margin-right: 168px;
+    background-color: black;
+    background-image: url(../photo/animal.jpg);
+    background-size:cover;
+}
+
+@media screen and (max-width:1510px) {
+    .main .activities .photo .animal {
+        margin-right: 150px;
+    }
+}
+
+@media screen and (max-width:1490px) {
+    .main .activities .photo .animal {
+        margin-right: 130px;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .main .activities .photo .animal {
+        margin-right: 100px;
+    }
+}
+
+@media screen and (max-width:1410px) {
+    .main .activities .photo .animal {
+        margin-right: 80px;
+    }
+}
+
+@media screen and (max-width:1360px) {
+    .main .activities .photo .animal {
+        margin-right: 60px;
+    }
+}
+
+@media screen and (max-width:1320px) {
+    .main .activities .photo .animal {
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width:1264px) {
+    .main .activities .photo .animal {
+        width: 536px;
+        height: 550px;
+    }
+}
+
+@media screen and (max-width:1182px) {
+    .main .activities .photo .animal {
+        width: 436px;
+        height: 450px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .activities .photo .animal {
+        width: 336px;
+        height: 350px;
+    }
+}
+
+@media screen and (max-width:780px) {
+    .main .activities .photo .animal {
+        float: none;
+        justify-self: center;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .activities .photo .animal {
+        width: 236px;
+        height: 250px;
+    }
+}
+
+.main .activities .photo .animal .headline {
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 421px;
+    font-size: 14px;
+    font-family: 'Poppins';
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width:1264px) {
+    .main .activities .photo .animal .headline {
+        padding-top: 380px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .activities .photo .animal .headline {
+        padding-top: 290px;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .activities .photo .animal .headline {
+        padding-top: 180px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .activities .photo .animal .headline {
+        padding-top: 140px;
+        font-size: 7px;
+    }
+}
+
+.main .activities .photo .animal .description {
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 451px;
+    font-size: 14px;
+    font-family: 'Poppins';
+    text-align: left;
+    color: #C0C0C0;
+}
+
+@media screen and (max-width:1264px) {
+    .main .activities .photo .animal .description {
+        padding-top: 410px;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .activities .photo .animal .description {
+        padding-top: 310px;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .activities .photo .animal .description {
+        padding-top: 210px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .activities .photo .animal .description {
+        padding-top: 160px;
+        font-size: 7px;
+    }
+}
+
+.main .activities .photo .animal .button {
+    position: absolute;
+    padding-left: 30px;
+    padding-top: 528px;
+}
+
+@media screen and (max-width:1264px) {
+    .main .activities .photo .animal .button {
+        padding-top:480px;
+        height: 40px;
+        width: 130px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .activities .photo .animal .button {
+        padding-top:380px;
+        height: 35px;
+        width: 110px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .activities .photo .animal .button {
+        padding-top:300px;
+        height: 30px;
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .activities .photo .animal .button {
+        padding-top:220px;
+        height: 20px;
+        width: 70px;
+    }
+}
+
+.main .mountain {
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    background-image: url(../photo/background-mountain.png);
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width:1102px) {
+    .main .mountain {
+    height: 400px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .mountain {
+    height: 350px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .mountain {
+    height: 280px;
+    }
+}
+
+.main .mountain .text {
+    font-family: 'Poppins';
+    padding-top: 267px;
+    padding-right: 100px;
+    display: grid;
+}
+
+@media screen and (max-width:1181px) {
+    .main .mountain .text {
+        padding-top: 200px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .mountain .text {
+        padding-top: 150px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .mountain .text {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .main .mountain .text {
+        padding-right: 20px;
+    }
+}
+
+.main .mountain .text .headline {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: white;
+    justify-self: right;
+    text-align: left;
+    padding-right: 100px;
+}
+
+@media screen and (max-width:1264px) {
+    .main .mountain .text .headline {
+        font-size: 12px;
+        padding-right: 80px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .mountain .text .headline {
+        font-size: 11px;
+        padding-right: 70px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .mountain .text .headline {
+        font-size: 10px;
+        padding-right: 60px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .mountain .text .headline {
+        font-size: 7px;
+        padding-right: 27px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .main .mountain .text .headline {
+        padding-right: 28px;
+    }
+}
+
+.main .mountain .text .description {
+    font-size: 14px;
+    color: #C0C0C0;
+    justify-self: right;
+    text-align: left;
+}
+
+@media screen and (max-width:1264px) {
+    .main .mountain .text .description {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .mountain .text .description {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .mountain .text .description {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .mountain .text .description {
+        font-size: 7px;
+    }
+}
+
+.main .mountain .photo {
+    margin-top: 200px;
+    display: inline;
+    float: right;
+}
+
+@media screen and (max-width:1102px) {
+    .main .mountain .photo {
+    margin-top: 90px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .mountain .photo {
+    margin-top: 100px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .mountain .photo {
+    margin-top: 80px;
+    }
+}
+
+.main .mountain .photo .photo1 {
+    width: 30px;
+    height: 16px;
+}
+
+@media screen and (max-width:1102px) {
+    .main .mountain .photo .photo1 {
+    width: 25px;
+    height: 14px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .mountain .photo .photo1 {
+    width: 20px;
+    height: 12px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .mountain .photo .photo1 {
+    width: 15px;
+    height: 10px;
+    }
+}
+
+.main .mountain .photo .photo2 {
+    width: 44px;
+    height: 16px;
+    margin:0 0 0 16px;
+}
+
+@media screen and (max-width:1102px) {
+    .main .mountain .photo .photo2 {
+    width: 36px;
+    height: 14px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .mountain .photo .photo2 {
+    width: 28px;
+    height: 12px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .mountain .photo .photo2 {
+    width: 42px;
+    height: 10px;
+    }
+}
+
+.main .mountain .photo .photo3 {
+    width: 62px;
+    height: 16px;
+    margin:0 0 0 16px;
+}
+
+@media screen and (max-width:1102px) {
+    .main .mountain .photo .photo3 {
+    width: 52px;
+    height: 14px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .mountain .photo .photo3 {
+    width: 42px;
+    height: 12px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .mountain .photo .photo3 {
+    width: 32px;
+    height: 10px;
+    }
+}
+
+.main .mountain .photo .photo4 {
+    width: 57px;
+    height: 16px;
+    margin:0 100px 0 16px;
+}
+
+@media screen and (max-width:1102px) {
+    .main .mountain .photo .photo4 {
+    width: 47px;
+    height: 14px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .mountain .photo .photo4 {
+    width: 37px;
+    height: 12px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .mountain .photo .photo4 {
+    width: 27px;
+    height: 10px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .main .mountain .photo .photo4 {
+    margin-right: 20px;
+    }
+}
+
+.main .tools{
+    height: 540px;
+    background: black;
+}
+
+@media screen and (max-width:1264px) {
+    .main .tools {
+    height: 470px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .tools {
+    height: 440px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .tools {
+    height: 310px;
+    }
+}
+
+@media screen and (max-width:578px) {
+    .main .tools {
+    height: 350px;
+    }
+}
+
+@media screen and (max-width:541px) {
+    .main .tools {
+    height: 400px;
+    }
+}
+
+@media screen and (max-width:296px) {
+    .main .tools {
+    height: 450px;
+    }
+}
+
+@media screen and (max-width:296px) {
+    .main .tools {
+    height: 500px;
+    }
+}
+
+@media screen and (max-width:210px) {
+    .main .tools {
+    height: 600px;
+    }
+}
+
+@media screen and (max-width:177px) {
+    .main .tools {
+    height: 800px;
+    }
+}
+
+.main .tools .black {
+    width: 50%;
+    background: black;
+    float: left;
+}
+
+.main .tools .black .text {
+    font-family: 'Poppins';
+    text-align: left;
+    margin-top: 173px;
+    margin-left: 100px;
+}
+
+@media screen and (max-width:1264px) {
+    .main .tools .black .text {
+        margin-top: 130px;
+        margin-left: 85px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .tools .black .text {
+        margin-top: 100px;
+        margin-left: 70px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .tools .black .text {
+        margin-top: 80px;
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .tools .black .text {
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+}
+
+.main .tools .black .text .headline {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: #C0C0C0;
+}
+
+@media screen and (max-width:1264px) {
+    .main .tools .black .text .headline {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .tools .black .text .headline {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .tools .black .text .headline {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .tools .black .text .headline {
+        font-size: 7px;
+    }
+}
+
+.main .tools .black .text .about {
+    font-size: 28px;
+    color: white;
+}
+
+@media screen and (max-width:1264px) {
+    .main .tools .black .text .about {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .tools .black .text .about {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .tools .black .text .about {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .tools .black .text .about {
+        font-size: 15px;
+    }
+}
+
+.main .tools .black .text .description {
+    font-size: 14px;
+    color: white;
+}
+
+@media screen and (max-width:1264px) {
+    .main .tools .black .text .description {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width:1181px) {
+    .main .tools .black .text .description {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .tools .black .text .description {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .tools .black .text .description {
+        font-size: 7px;
+    }
+}
+
+.main .tools .black .button {
+    margin-top: 25px;
+}
+
+@media screen and (max-width:1264px) {
+    .main .tools .black .button {
+        height: 40px;
+        width: 130px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .tools .black .button {
+        height: 35px;
+        width: 110px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .tools .black .button {
+        height: 30px;
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .tools .black .button {
+        height: 20px;
+        width: 70px;
+    }
+}
+
+.main .tools .image {
+    width: 50%;
+    min-height: 540px;
+    margin-left: 50%;    
+    background-image: url(../photo/background-cameras.jpg);
+    background-size:cover;
+}
+
+main .tools .image .photo {
+padding-top: 484px;
+float: right;
+}
+
+@media screen and (max-width:1264px) {
+    .main .tools .image .photo {
+    padding-top: 400px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .tools .image .photo {
+        padding-top: 370px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .tools .image .photo {
+        padding-top: 280px;
+    }
+}
+
+@media screen and (max-width:578px) {
+    .main .tools .image .photo {
+        padding-top: 300px;
+    }
+}
+
+@media screen and (max-width:541px) {
+    .main .tools .image .photo {
+        padding-top: 350px;
+    }
+}
+
+main .tools .image .photo .photo1 {
+    width: 44px;
+    height: 16px;  
+}
+
+@media screen and (max-width:1102px) {
+    main .tools .image .photo .photo1 {
+    width: 39px;
+    height: 14px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    main .tools .image .photo .photo1 {
+    width: 34px;
+    height: 12px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    main .tools .image .photo .photo1 {
+    width: 29px;
+    height: 10px;
+    }
+}
+
+main .tools .image .photo .photo2 {
+    width: 50px;
+    height: 16px;
+    margin:0 0 0 16px
+}
+
+@media screen and (max-width:1102px) {
+    main .tools .image .photo .photo2 {
+    width: 42px;
+    height: 14px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    main .tools .image .photo .photo2 {
+    width: 34px;
+    height: 12px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    main .tools .image .photo .photo2 {
+    width: 28px;
+    height: 10px;
+    }
+}
+
+main .tools .image .photo .photo3 {
+    width: 58px;
+    height: 16px;
+    margin:0 0 0 16px
+}
+
+
+@media screen and (max-width:1102px) {
+    main .tools .image .photo .photo3 {
+    width: 48px;
+    height: 14px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    main .tools .image .photo .photo3 {
+    width: 38px;
+    height: 12px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    main .tools .image .photo .photo3 {
+    width: 28px;
+    height: 10px;
+    }
+}
+
+main .tools .image .photo .photo4 {
+    width: 65px;
+    height: 16px;
+    margin:0 100px 0 16px
+}
+
+@media screen and (max-width:1102px) {
+    main .tools .image .photo .photo4 {
+    width: 55px;
+    height: 14px;
+    margin-right: 80px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    main .tools .image .photo .photo4 {
+    width: 45px;
+    height: 12px;
+    margin-right: 50px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    main .tools .image .photo .photo4 {
+    width: 35px;
+    height: 10px;
+    margin-right: 20px;
+    }
+}
+
+.main .leaves {
+    width: 100%;
+    height: 600px;    
+    background-image: url(../photo/background-leaves.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width:1102px) {
+    .main .leaves {
+    height: 400px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .leaves {
+    height: 350px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .leaves {
+    height: 280px;
+    }
+}
+
+.main .leaves .text {
+    font-family: 'Poppins';
+    padding-top: 267px;
+    padding-right: 100px;
+    display: grid;
+}
+
+@media screen and (max-width:1181px) {
+    .main .leaves .text {
+        padding-top: 200px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .leaves .text {
+        padding-top: 150px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .leaves .text {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .main .leaves .text {
+        padding-right: 20px;
+    }
+}
+.main .leaves .text .headline {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: white;
+    justify-self: right;
+    text-align: left;
+    padding-right: 125px;
+}
+
+@media screen and (max-width:1264px) {
+    .main .leaves .text .headline {
+        font-size: 12px;
+        padding-right: 105px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .leaves .text .headline {
+        font-size: 11px;
+        padding-right: 93px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .leaves .text .headline {
+        font-size: 10px;
+        padding-right: 80px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .leaves .text .headline {
+        font-size: 7px;
+        padding-right: 47px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .main .leaves .text .headline {
+        padding-right: 48px;
+    }
+}
+
+.main .leaves .text .description {
+    font-size: 14px;
+    color:  #C0C0C0;
+    justify-self: right;
+    text-align: left;
+}
+
+@media screen and (max-width:1264px) {
+    .main .leaves .text .description {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .leaves .text .description {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .leaves .text .description {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .leaves .text .description {
+        font-size: 7px;
+    }
+}
+
+.main .leaves .photo {
+    margin-top: 200px;
+    display: inline;
+    float: right;
+}
+
+@media screen and (max-width:1102px) {
+    .main .leaves .photo {
+    margin-top: 90px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .leaves .photo {
+    margin-top: 100px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .leaves .photo {
+    margin-top: 80px;
+    }
+}
+
+.main .leaves .photo .photo1 {
+    width: 63px;
+    height: 16px;
+    margin:0 0 0 16px
+}
+
+@media screen and (max-width:1102px) {
+    .main .leaves .photo .photo1 {
+    width: 53px;
+    height: 14px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .leaves .photo .photo1 {
+    width: 43px;
+    height: 12px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .leaves .photo .photo1 {
+    width: 33px;
+    height: 10px;
+    }
+}
+
+.main .leaves .photo .photo2 {
+    width: 49px;
+    height: 16px;
+    margin:0 0 0 16px
+}
+
+@media screen and (max-width:1102px) {
+    .main .leaves .photo .photo2 {
+    width: 39px;
+    height: 14px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .leaves .photo .photo2 {
+    width: 29px;
+    height: 12px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .mountain .photo .photo2 {
+    width: 20px;
+    height: 10px;
+    }
+}
+
+.main .leaves .photo .photo3 {
+    width: 58px;
+    height: 16px;
+    margin:0 0 0 16px
+}
+
+@media screen and (max-width:1102px) {
+    .main .leaves .photo .photo3 {
+    width: 48px;
+    height: 14px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .leaves .photo .photo3 {
+    width: 38px;
+    height: 12px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .leaves .photo .photo3 {
+    width: 28px;
+    height: 10px;
+    }
+}
+
+.main .leaves .photo .photo4{
+    width: 85px;
+    height: 16px;
+    margin:0 100px 0 16px
+}
+
+@media screen and (max-width:1102px) {
+    .main .leaves .photo .photo4 {
+    width: 70px;
+    height: 14px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .leaves .photo .photo4 {
+    width: 58px;
+    height: 12px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .leaves .photo .photo4 {
+    width: 45px;
+    height: 10px;
+    }
+}
+
+
+@media screen and (max-width:430px) {
+    .main .leaves .photo .photo4 {
+    margin-right: 20px;
+    }
+}
+
+.main .clients {
+    width: 100%;
+    height: 500px;    
+    background-color: black;
+}
+
+@media screen and (max-width:1264px) {
+    .main .clients {
+        height: 450px;  
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .clients  {
+        height: 390px;  
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .clients {
+        height: 340px;  
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .clients {
+        height: 270px;  
+    }
+}
+
+@media screen and (max-width:333px) {
+    .main .clients {
+        height: 240px;  
+    }
+}
+
+.main .clients .text {
+    font-family: 'Poppins';
+    text-align: center;
+    padding-top: 113px;
+}
+
+@media screen and (max-width:1264px) {
+    .main .clients .text {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .clients .text {
+        padding-top: 90px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .clients .text {
+        padding-top: 75px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .clients .text {
+        padding-top: 60px;
+    }
+}
+
+@media screen and (max-width:333px) {
+    .main .clients .text {
+        padding-top: 40px;
+    }
+}
+
+.main .clients .text .headline {
+    font-size: 40px;
+    color: white;
+}
+
+@media screen and (max-width:1264px) {
+    .main .clients .text .headline {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .clients .text .headline {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .clients .text .headline {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .clients .text .headline {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width:333px) {
+    .main .clients .text .headline {
+        font-size: 15px;
+    }
+}
+
+.main .clients .text .description {
+    font-size: 24px;
+    color:  #C0C0C0;
+}
+
+@media screen and (max-width:1264px) {
+    .main .clients .text .description {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .clients .text .description {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .clients .text .description {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .clients .text .description {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:333px) {
+    .main .clients .text .description {
+        font-size: 7px;
+    }
+}
+
+.main .clients .photo {
+    padding-top: 100px;
+    text-align: center;
+}
+
+@media screen and (max-width:1264px) {
+    .main .clients .photo {
+        padding-top: 90px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .clients .photo  {
+        padding-top: 80px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .clients .photo {
+        padding-top: 65px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .clients .photo {
+        padding-top: 55px;
+    }
+}
+
+@media screen and (max-width:333px) {
+    .main .clients .photo {
+        padding-top: 45px;
+    }
+}
+
+.main .clients .photo .photo1 {
+    width: 128px;
+    height: 30px;
+    margin:0 0 0 0px
+}
+
+
+@media screen and (max-width:1264px) {
+    .main .clients .photo .photo1 {
+        width: 110px;
+        height: 28px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .clients .photo .photo1{
+        width: 90px;
+        height: 26px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .clients .photo .photo1 {
+        width: 70px;
+        height: 24px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .clients .photo .photo1 {
+        width: 50px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width:333px) {
+    .main .clients .photo .photo1 {
+        width: 40px;
+        height: 15px;
+    }
+}
+
+.main .clients .photo .photo2 {
+    width: 128px;
+    height: 78px;
+    margin:0 0 0 109px
+}
+
+@media screen and (max-width:1264px) {
+    .main .clients .photo .photo2 {
+        width: 110px;
+        height: 28px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .clients .photo .photo2 {
+        width: 90px;
+        height: 26px;
+        margin-left: 90px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .clients .photo .photo2 {
+        width: 70px;
+        height: 24px;
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .clients .photo .photo2 {
+        width: 50px;
+        height: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:333px) {
+    .main .clients .photo .photo2 {
+        width: 40px;
+        height: 15px;
+    }
+}
+
+.main .clients .photo .photo3 {
+    width: 128px;
+    height: 20px;
+    margin:0 0 0 109px
+}
+
+@media screen and (max-width:1264px) {
+    .main .clients .photo .photo3 {
+        width: 110px;
+        height: 28px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .clients .photo .photo3 {
+        width: 90px;
+        height: 26px;
+        margin-left: 90px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .clients .photo .photo3 {
+        width: 70px;
+        height: 24px;
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .clients .photo .photo3 {
+        width: 50px;
+        height: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:333px) {
+    .main .clients .photo .photo3 {
+        width: 40px;
+        height: 15px;
+    }
+}
+
+.main .clients .photo .photo4{
+    width: 128px;
+    height: 36px;
+    margin:0 0 0 109px
+}
+
+@media screen and (max-width:1264px) {
+    .main .clients .photo .photo4 {
+        width: 110px;
+        height: 28px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .clients .photo .photo4 {
+        width: 90px;
+        height: 26px;
+        margin-left: 90px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .clients .photo .photo4 {
+        width: 70px;
+        height: 24px;
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .clients .photo .photo4{
+        width: 50px;
+        height: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:333px) {
+    .main .clients .photo .photo4 {
+        width: 40px;
+        height: 15px;
+    }
+}
+
+.main .clients .photo .photo5{
+    width: 128px;
+    height: 32px;
+    margin:0 0 0 109px
+}
+
+@media screen and (max-width:1264px) {
+    .main .clients .photo .photo5 {
+        width: 110px;
+        height: 28px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .clients .photo .photo5 {
+        width: 90px;
+        height: 26px;
+        margin-left: 90px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .clients .photo .photo5 {
+        width: 70px;
+        height: 24px;
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .clients .photo .photo5 {
+        width: 50px;
+        height: 20px;
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width:333px) {
+    .main .clients .photo .photo5 {
+        width: 40px;
+        height: 15px;
+    }
+}
+
+.main .mountains {
+    width: 100%;
+    height: 600px;    
+    background-image: url(../photo/background-mountains.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+@media screen and (max-width:1102px) {
+    .main .mountains {
+    height: 400px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .mountains {
+    height: 350px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .mountains {
+    height: 280px;
+    }
+}
+
+.main .mountains .text {
+    font-family: 'Poppins';
+    padding-top: 267px;
+    padding-right: 100px;
+    display: grid;
+}
+
+@media screen and (max-width:1181px) {
+    .main .mountains .text {
+        padding-top: 200px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .mountains .text {
+        padding-top: 150px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .mountains .text {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .main .mountains .text {
+        padding-right: 20px;
+    }
+}
+
+.main .mountains .text .headline {
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: white;
+    justify-self: right;
+    text-align: left;
+}
+
+@media screen and (max-width:1264px) {
+    .main .mountains .text .headline {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .mountains .text .headline {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .mountains .text .headline {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .mountains .text .headline {
+        font-size: 7px;
+    }
+}
+
+.main .mountains .text .description {
+    font-size: 14px;
+    color:  #C0C0C0;
+    justify-self: right;
+    text-align: left;
+    padding-right: 27px;
+}
+
+@media screen and (max-width:1264px) {
+    .main .mountains .text .description {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .mountains .text .description {
+        font-size: 11px;
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .mountains .text .description {
+        font-size: 10px;
+        padding-right: 32px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .mountains .text .description {
+        font-size: 7px;
+        padding-right: 38px;
+    }
+}
+
+.main .mountains .photo {
+    margin-top: 200px;
+    display: inline;
+    float: right;
+}
+
+@media screen and (max-width:1102px) {
+    .main .mountains .photo {
+    margin-top: 90px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .mountains .photo {
+    margin-top: 100px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .mountains .photo {
+    margin-top: 80px;
+    }
+}
+
+.main .mountains .photo .photo1 {
+    width: 34px;
+    height: 16px;
+    margin:0 0 0 16px
+}
+
+@media screen and (max-width:1102px) {
+    .main .mountains .photo .photo1 {
+    width: 30px;
+    height: 14px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .mountains .photo .photo1 {
+    width: 26px;
+    height: 12px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .mountains .photo .photo1 {
+    width: 22px;
+    height: 10px;
+    }
+}
+
+.main .mountains .photo .photo2 {
+    width: 40px;
+    height: 16px;
+    margin:0 0 0 16px
+}
+
+@media screen and (max-width:1102px) {
+    .main .mountains .photo .photo2 {
+    width: 34px;
+    height: 14px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .mountains .photo .photo2 {
+    width: 28px;
+    height: 12px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .mountains .photo .photo2 {
+    width: 22px;
+    height: 10px;
+    }
+}
+
+.main .mountains .photo .photo3 {
+    width: 62px;
+    height: 16px;
+    margin:0 0 0 16px
+}
+
+@media screen and (max-width:1102px) {
+    .main .mountains .photo .photo3 {
+    width: 52px;
+    height: 14px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .mountains .photo .photo3 {
+    width: 42px;
+    height: 12px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .mountains .photo .photo3 {
+    width: 32px;
+    height: 10px;
+    }
+}
+
+.main .mountains .photo .photo4{
+    width: 51px;
+    height: 16px;
+    margin:0 100px 0 16px
+}
+
+@media screen and (max-width:1102px) {
+    .main .mountains .photo .photo4 {
+    width: 45px;
+    height: 14px;
+    }
+}
+
+@media screen and (max-width:748px) {
+    .main .mountains .photo .photo4 {
+    width: 37px;
+    height: 12px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .mountains .photo .photo4 {
+    width: 29px;
+    height: 10px;
+    }
+}
+
+@media screen and (max-width:430px) {
+    .main .mountains .photo .photo4 {
+    margin-right: 20px;
+    }
+}
+
+.main .help {
+    width: 100%;
+    height: 414px;    
+    background-color: black;
+}
+
+@media screen and (max-width:1264px) {
+    .main .help {
+        height: 385px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .help {
+        height: 340px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .help {
+        height: 280px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .help {
+        height: 200px;
+    }
+}
+
+.main .help .text {
+    font-family: 'Poppins';
+    text-align: center;
+    padding-top: 113px;
+}
+
+@media screen and (max-width:1264px) {
+    .main .help .text {
+        padding-top: 100px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .help .text {
+        padding-top: 85px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .help .text {
+        padding-top: 75px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .help .text {
+        padding-top: 40px;
+    }
+}
+
+.main .help .text .headline {
+    font-size: 40px;
+    color: white;
+}
+
+@media screen and (max-width:1264px) {
+    .main .help .text .headline {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .help .text .headline {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .help .text .headline {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .help .text .headline {
+        font-size: 20px;
+    }
+}
+
+.main .help .text .description {
+    font-size: 24px;
+    color:  #C0C0C0;
+}
+
+@media screen and (max-width:1264px) {
+    .main .help .text .description {
+        font-size: 21px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .help .text .description {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .help .text .description {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .help .text .description {
+        font-size: 12px;
+    }
+}
+
+.main .help .button {
+    margin-top: 22px;
+}
+
+@media screen and (max-width:1264px) {
+    .main .help .button {
+        height: 35px;
+        width: 130px;
+    }
+}
+
+@media screen and (max-width:1181px) {
+    .main .help .button {
+        height: 32px;
+        width: 110px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .help .button {
+        height: 27px;
+        width: 90px;
+    }
+}
+
+@media screen and (max-width:644px) {
+    .main .help .button {
+        height: 25px;
+        width: 75px;
+    }
+}
+
+.main .about {
+    width: 100%;
+    height: 390px;    
+    background-color: black;
+}
+
+@media screen and (max-width:1221px) {
+    .main .about {
+        height: 520px; 
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .about {
+        height: 420px; 
+    }
+}
+
+.main .about .aperture {
+padding-top: 100px;
+padding-left: 136px;
+float: left;
+}
+
+@media screen and (max-width:1221px) {
+    .main .about .aperture {
+        float: none;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .main .about .aperture {
+        padding-left: 30px;
+    }
+}
+
+.main .about .aperture .photo {
+    width: 128px;
+    height: 31px;
+}
+
+@media screen and (max-width:975px) {
+    .main .about .aperture .photo {
+        width: 80px;
+        height: 20px;
+    }
+}
+
+.main .about .aperture .text {
+    font-family: 'Poppins';
+    font-size: 13px;
+    padding-top: 20px;
+    color:  #C0C0C0;
+}
+
+@media screen and (max-width:975px) {
+    .main .about .aperture .text {
+        font-size: 9px;
+    }
+}
+
+.main .about .list1 {
+    padding-top: 100px;
+    padding-left: 299px;
+    float: left;
+    font-size: 14px;
+}
+
+@media screen and (max-width:1221px) {
+    .main .about .list1 {
+        padding-left: 136px;
+    }
+}
+
+@media screen and (max-width:975px) {
+    .main .about .list1 {
+        font-size: 9px;
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .main .about .list1 {
+        padding-left: 30px;
+    }
+}
+
+.main .about .list1 .headline {
+    letter-spacing: 2px;
+    color: #C0C0C0;
+    font-family: 'Poppins';
+    padding-bottom: 20px;
+}
+
+.main .about .list1 .text {
+    color: white;
+    font-family: 'Poppins';
+    padding-bottom: 20px;
+}
+
+.main .about .list2 {
+    font-size: 14px;
+    padding-top: 100px;
+    padding-left: 58px;
+    float: left;
+}
+
+@media screen and (max-width:975px) {
+    .main .about .list2 {
+        font-size: 9px;
+        padding-top: 50px;
+    }
+}
+
+.main .about .list2 .headline {
+    letter-spacing: 2px;
+    color: #C0C0C0;
+    font-family: 'Poppins';
+    padding-bottom: 20px;
+}
+
+.main .about .list2 .text {
+    color: white;
+    font-family: 'Poppins';
+    padding-bottom: 20px;
+}
+
+.main .newsletter {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+}
+
+@media screen and (max-width:715px) {
+    .main .newsletter {
+        height: 200px;
+    }
+}
+
+.main .newsletter .subscribe {
+    display: block; 
+    background-color: black;
+}
+
+.hr-top {
+    display: block;
+    color: white;
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    margin-left: 136px;
+    margin-right: 136px;
+    border-style: inset;
+    border-width: 1px;
+}
+
+@media screen and (max-width:550px) {
+    .hr-top {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+.main .newsletter .subscribe .text {
+    font-family: 'Poppins';
+    margin-left: 136px;
+    margin-bottom: 36px;
+    float: left;
+    font-size: 14px;
+}
+
+@media screen and (max-width:975px) {
+    .main .newsletter .subscribe .text {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .main .newsletter .subscribe .text {
+        margin-left: 30px;
+    }
+}
+
+.main .newsletter .subscribe .text .headline {
+    color: white;
+    letter-spacing: 2px;
+}
+
+
+.main .newsletter .subscribe .text .description {
+    margin-top: 30px;
+    color: #C0C0C0;
+}
+
+.email {
+    border: none;
+    outline: none; 
+    width: 428px; 
+    height: 52px;
+    border-radius: 11px;
+    position: relative;
+    padding: 0px 15px;
+}
+
+@media screen and (max-width:1035px) {
+    .email {
+        width: 200px; 
+        height: 30px;
+    }
+}
+
+label {
+    position: relative;
+    display: flex;
+    float: right;
+    margin-right: 136px;
+}
+
+button {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    margin-left: 380px;
+    margin-top: 10px;
+    height: 30px;
+    width: 63px;
+    border-radius: 11px;
+    color: black;
+    background-color: black;
+}
+
+@media screen and (max-width:1035px) {
+    button {
+        height: 15px;
+        width: 30px;
+        margin-left: 180px;
+        margin-top: 8px;
+    }
+}
+
+button:active {
+    color: #C0C0C0;
+    background-color: #C0C0C0;
+}
+
+.main .footer {
+    width: 100%;
+    height: 170px;
+    background-color: black;
+}
+
+.hr-bottom {
+    color: white;
+    background-color: white;
+    margin-left: 136px;
+    margin-right: 136px;
+    margin-bottom: 36px;
+    margin-top: 0px;
+    border-style: inset;
+    border-width: 1px;
+}
+
+@media screen and (max-width:550px) {
+    .hr-bottom {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+.main .footer .aperture {
+    font-family: 'Poppins';
+    font-size: 13px;
+    margin-left: 136px;
+    color: #C0C0C0;
+    display: inline;
+}
+
+@media screen and (max-width:975px) {
+    .main .footer .aperture {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .main .footer .aperture {
+        margin-left: 30px;
+    }
+}
+
+.main .footer .social {
+    display: inline;
+    float: right;
+    margin-right: 130px;
+}
+
+@media screen and (max-width:975px) {
+    .main .footer .social {
+        width: 90px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .main .footer .social {
+        margin-right: 30px;
+    }
 }
