@@ -147,102 +147,87 @@ table {
 
 @media screen and (max-width:369px) {
     .logo {
-float: none;
-padding-bottom: 0px;
+        float: none;
+        padding-bottom: 0px;
     }
 }
 
 @media screen and (max-width:1102px) {
     .aperture-logo {
-    width: 100px;  
-    margin-top: 0px; 
+        width: 100px;  
+        margin-top: 0px; 
     }
 }
 
 @media screen and (max-width:878px) {
     .aperture-logo {
-    width: 70px;   
+        width: 70px;   
     }
 }
 
 @media screen and (max-width:748px) {
     .aperture-logo {
-    width: 55px;  
+        width: 55px;  
     }
 }
 
 @media screen and (max-width:644px) {
     .aperture-logo {
-    width: 40px;  
+        width: 40px;  
+        margin-top: 10px;
     }
 }
 
 @media screen and (max-width:464px) {
     .aperture-logo {
-    width: 35px;  
+        width: 35px;  
     }
 }
 
 .menu {
-    margin: 30px 31px 0px 260px;
+    padding: 30px 0px 0px 0px;
     line-height: 31px;
-    float: left;
-}
-
-@media screen and (max-width:1212px) {
-    .menu {
-    margin-left: 200px; 
-    margin-top: 27px;   
-    }
-}
-
-@media screen and (max-width:1152px) {
-    .menu {
-    margin-left: 150px; 
-    margin-top: 27px;   
-    }
+    float: right;
+    margin-right: 270px;
 }
 
 @media screen and (max-width:1102px) {
     .menu {
-        margin-top: 15px;
-        margin-left: 100px;
+        padding-top: 15px;
+        margin-right: 200px;
     }
 }
 
 @media screen and (max-width:878px) {
     .menu {
-        margin-top: 6px;
-        margin-left: 80px;
+        padding-top: 6px;
+        margin-right: 170px;
     }
 }
 
 @media screen and (max-width:748px) {
     .menu {
-        margin-top: 3px;
-        margin-left: 80px;
+        padding-top: 3px;
+        margin-right: 130px;
     }
 }
 
 @media screen and (max-width:644px) {
     .menu {
-        margin-top: 0px;
-        margin-left: 50px;
-        margin-right: 0px;
+        padding-top: 0px;
+        margin-right: 100px;
     }
 }
 
 @media screen and (max-width:464px) {
     .menu {
-        margin-left: 20px;
-        margin-top: -5px;
+        padding-top: -5px;
     }
 }
 
 @media screen and (max-width:369px) {
     .menu {
-        margin-left: 15px;
-        margin-top: -10px;
+        padding-top: -10px;
     }
 }
 
@@ -377,7 +362,6 @@ padding-bottom: 0px;
 
 @media screen and (max-width:289px) {
     .nav-button {
-        float: none;
         margin-left: 13px;
     }
 }
@@ -582,110 +566,110 @@ padding-bottom: 0px;
     }
 }
 
-.main .home .photo {
+.main .home .photos {
     float: right;
     margin:4px 22px 40px 0px;
 }
 
 @media screen and (max-width:1102px) {
-    .main .home .photo {
-    margin-top: -10px;
+    .main .home .photos {
+        margin-top: -10px;
     }
 }
 
 @media screen and (max-width:748px) {
-    .main .home .photo {
-    margin-top: -20px;
+    .main .home .photos {
+        margin-top: -20px;
     }
 }
 
 @media screen and (max-width:644px) {
-    .main .home .photo {
-    margin-top: -30px;
+    .main .home .photos {
+        margin-top: -30px;
     }
 }
 
 @media screen and (max-width:464px) {
-    .main .home .photo {
-    margin-right: 0px;
+    .main .home .photos {
+        margin-right: 0px;
     }
 }
 
 @media screen and (max-width:286px) {
-    .main .home .photo {
-    margin-top: -50px;
+    .main .home .photos {
+        margin-top: -50px;
     }
 }
 
-.main .home .photo .photo1 {
+.main .home .photos .photo1 {
     width: 70px;
     height: 16px;  
 }
 
 @media screen and (max-width:1102px) {
-    .main .home .photo .photo1 {
-    width: 60px;
-    height: 14px;
+    .main .home .photos .photo1 {
+        width: 60px;
+        height: 14px;
     }
 }
 
 @media screen and (max-width:748px) {
-    .main .home .photo .photo1 {
-    width: 50px;
-    height: 12px;
+    .main .home .photos .photo1 {
+        width: 50px;
+        height: 12px;
     }
 }
 
 @media screen and (max-width:644px) {
-    .main .home .photo .photo1 {
-    width: 40px;
-    height: 10px;
+    .main .home .photos .photo1 {
+        width: 40px;
+        height: 10px;
     }
 }
 
 @media screen and (max-width:464px) {
-    .main .home .photo .photo1 {
-    display: block;
-    padding-bottom: 5px;
+    .main .home .photos .photo1 {
+        display: block;
+        padding-bottom: 5px;
     }
 }
 
 @media screen and (max-width:286px) {
-    .main .home .photo .photo1 {
-    width: 20px;
-    height: 6px;
+    .main .home .photos .photo1 {
+        width: 20px;
+        height: 6px;
     }
 }
 
-.main .home .photo .photo2 {
+.main .home .photos .photo2 {
     width: 40px;
     height: 16px;
     margin:0 0 0 16px
 }
 
 @media screen and (max-width:1102px) {
-    .main .home .photo .photo2 {
-    width: 35px;
-    height: 14px;
+    .main .home .photos .photo2 {
+        width: 35px;
+        height: 14px;
     }
 }
 
 @media screen and (max-width:748px) {
-    .main .home .photo .photo2 {
-    width: 30px;
-    height: 12px;
+    .main .home .photos .photo2 {
+        width: 30px;
+        height: 12px;
     }
 }
 
 @media screen and (max-width:644px) {
-    .main .home .photo .photo2 {
-    width: 25px;
-    height: 10px;
+    .main .home .photos .photo2 {
+        width: 25px;
+        height: 10px;
     }
 }
 
 @media screen and (max-width:464px) {
-    .main .home .photo .photo2 {
+    .main .home .photos .photo2 {
     display: block;
     padding-bottom: 5px;
     margin-left: 0px;
@@ -693,93 +677,93 @@ padding-bottom: 0px;
 }
 
 @media screen and (max-width:286px) {
-    .main .home .photo .photo2 {
-    width: 10px;
-    height: 6px;
+    .main .home .photos .photo2 {
+        width: 10px;
+        height: 6px;
     }
 }
 
-.main .home .photo .photo3 {
+.main .home .photos .photo3 {
     width: 58px;
     height: 16px;
     margin:0 0 0 16px
 }
 
 @media screen and (max-width:1102px) {
-    .main .home .photo .photo3 {
-    width: 50px;
-    height: 14px;
+    .main .home .photos .photo3 {
+        width: 50px;
+        height: 14px;
     }
 }
 
 @media screen and (max-width:748px) {
-    .main .home .photo .photo3 {
-    width: 40px;
-    height: 12px;
+    .main .home .photos .photo3 {
+        width: 40px;
+        height: 12px;
     }
 }
 
 @media screen and (max-width:644px) {
-    .main .home .photo .photo3 {
-    width: 30px;
-    height: 10px;
+    .main .home .photos .photo3 {
+        width: 30px;
+        height: 10px;
     }
 }
 
 @media screen and (max-width:464px) {
-    .main .home .photo .photo3 {
-    display: block;
-    padding-bottom: 5px;
-    margin-left: 0px;
+    .main .home .photos .photo3 {
+        display: block;
+        padding-bottom: 5px;
+        margin-left: 0px;
     }
 }
 
 @media screen and (max-width:286px) {
-    .main .home .photo .photo3 {
-    width: 15px;
-    height: 6px;
+    .main .home .photos .photo3 {
+        width: 15px;
+        height: 6px;
     }
 }
 
-.main .home .photo .photo4 {
+.main .home .photos .photo4 {
     width: 63px;
     height: 16px;
     margin:0 22px 0 16px
 }
 
 @media screen and (max-width:1102px) {
-    .main .home .photo .photo4 {
-    width: 53px;
-    height: 14px;
+    .main .home .photos .photo4 {
+        width: 53px;
+        height: 14px;
     }
 }
 
 @media screen and (max-width:748px) {
-    .main .home .photo .photo4 {
-    width: 43px;
-    height: 12px;
+    .main .home .photos .photo4 {
+        width: 43px;
+        height: 12px;
     }
 }
 
 @media screen and (max-width:644px) {
-    .main .home .photo .photo4 {
-    width: 33px;
-    height: 10px;
+    .main .home .photos .photo4 {
+        width: 33px;
+        height: 10px;
     }
 }
 
 @media screen and (max-width:464px) {
-    .main .home .photo .photo4 {
-    display: block;
-    padding-bottom: 0px;
-    margin-left: 0px;
+    .main .home .photos .photo4 {
+        display: block;
+        padding-bottom: 0px;
+        margin-left: 0px;
     }
 }
 
 @media screen and (max-width:286px) {
-    .main .home .photo .photo4 {
-    width: 15px;
-    height: 6px;
+    .main .home .photos .photo4 {
+        width: 15px;
+        height: 6px;
     }
 }
 
@@ -795,27 +779,9 @@ padding-bottom: 0px;
     }
 }
 
-@media screen and (max-width:1182px) {
-    .main .activities  {
-        height: 1300px;
-    }
-}
-
 @media screen and (max-width:975px) {
     .main .activities  {
         height: 1000px;
-    }
-}
-
-@media screen and (max-width:780px) {
-    .main .activities  {
-        height: 1800px;
-    }
-}
-
-@media screen and (max-width:644px) {
-    .main .activities  {
-        height: 1350px;
     }
 }
 
@@ -829,28 +795,22 @@ padding-bottom: 0px;
 
 @media screen and (max-width:1264px) {
     .main .activities .headline {
-    font-size: 35px;
-    padding-top: 80px;
-    }
-}
-
-@media screen and (max-width:1182px) {
-    .main .activities .headline {
-    font-size: 30px;
+        font-size: 35px;
+        padding-top: 80px;
     }
 }
 
 @media screen and (max-width:975px) {
     .main .activities .headline {
-    font-size: 25px;
-    padding-top: 60px;
+        font-size: 25px;
+        padding-top: 60px;
     }
 }
 
 @media screen and (max-width:644px) {
     .main .activities .headline {
-    font-size: 19px;
-    padding-top: 40px;
+        font-size: 19px;
+        padding-top: 40px;
     }
 }
 
@@ -864,25 +824,19 @@ padding-bottom: 0px;
 
 @media screen and (max-width:1264px) {
     .main .activities .description {
-    font-size: 19px;
-    }
-}
-
-@media screen and (max-width:1182px) {
-    .main .activities .description {
-    font-size: 16px;
+        font-size: 19px;
     }
 }
 
 @media screen and (max-width:975px) {
     .main .activities .description {
-    font-size: 13px;
+        font-size: 13px;
     }
 }
 
 @media screen and (max-width:644px) {
     .main .activities .description {
-    font-size: 10px;
+        font-size: 10px;
     }
 }
 
@@ -890,94 +844,17 @@ padding-bottom: 0px;
     display: inline;
 }
 
-@media screen and (max-width:780px) {
-    .main .activities .photo {
-    display: grid;
-    grid-gap: 10px;
-    }
-}
 
 .main .activities .photo .gadgets {
     position: relative;
     display: inline-block;
-    width: 576px;
-    height: 600px;
+    width: 40%;
+    height: 38%;
     margin-top: 42px;
-    margin-left: 168px;
+    margin-left: 9.5%;
     background-color: black;
     background-image: url(../photo/gadgets.jpg);
     background-size:cover;
-}
-
-@media screen and (max-width:1510px) {
-    .main .activities .photo .gadgets {
-        margin-left: 150px;
-    }
-}
-
-@media screen and (max-width:1490px) {
-    .main .activities .photo .gadgets {
-        margin-left: 120px;
-    }
-}
-
-@media screen and (max-width:1440px) {
-    .main .activities .photo .gadgets {
-        margin-left: 100px;
-    }
-}
-
-@media screen and (max-width:1400px) {
-    .main .activities .photo .gadgets {
-        margin-left: 80px;
-    }
-}
-
-@media screen and (max-width:1360px) {
-    .main .activities .photo .gadgets {
-        margin-left: 60px;
-    }
-}
-
-@media screen and (max-width:1320px) {
-    .main .activities .photo .gadgets {
-        margin-left: 40px;
-    }
-}
-
-@media screen and (max-width:1264px) {
-    .main .activities .photo .gadgets {
-        width: 536px;
-        height: 550px;
-    }
-}
-
-@media screen and (max-width:1182px) {
-    .main .activities .photo .gadgets {
-        width: 436px;
-        height: 450px;
-    }
-}
-
-@media screen and (max-width:975px) {
-    .main .activities .photo .gadgets {
-        width: 336px;
-        height: 350px;
-    }
-}
-
-@media screen and (max-width:780px) {
-    .main .activities .photo .gadgets {
-        justify-self: center;
-        margin-left: 0px;
-    }
-}
-
-@media screen and (max-width:644px) {
-    .main .activities .photo .gadgets {
-        width: 236px;
-        height: 250px;
-    }
 }
 
 .main .activities .photo .gadgets .headline {
@@ -989,17 +866,16 @@ padding-bottom: 0px;
     letter-spacing: 2px;
 }
 
-@media screen and (max-width:1264px) {
+@media screen and (max-width:1370px) {
     .main .activities .photo .gadgets .headline {
-        padding-top: 380px;
+        padding-top: 420px;
         font-size: 12px;
     }
 }
 
-@media screen and (max-width:1181px) {
+@media screen and (max-width:1264px) {
     .main .activities .photo .gadgets .headline {
-        padding-top: 300px;
-        font-size: 11px;
+        padding-top: 380px;
     }
 }
 
@@ -1012,7 +888,7 @@ padding-bottom: 0px;
 
 @media screen and (max-width:644px) {
     .main .activities .photo .gadgets .headline {
-        padding-top: 150px;
+        padding-top: 250px;
         font-size: 7px;
     }
 }
@@ -1027,17 +903,16 @@ padding-bottom: 0px;
     color: #C0C0C0;
 }
 
-@media screen and (max-width:1264px) {
+@media screen and (max-width:1370px) {
     .main .activities .photo .gadgets .description {
-        padding-top: 410px;
+        padding-top: 450px;
         font-size: 12px;
     }
 }
 
-@media screen and (max-width:1181px) {
+@media screen and (max-width:1264px) {
     .main .activities .photo .gadgets .description {
-        padding-top: 330px;
-        font-size: 11px;
+        padding-top: 410px;
     }
 }
 
@@ -1050,7 +925,7 @@ padding-bottom: 0px;
 
 @media screen and (max-width:644px) {
     .main .activities .photo .gadgets .description {
-        padding-top: 170px;
+        padding-top: 270px;
         font-size: 7px;
     }
 }
@@ -1061,17 +936,17 @@ padding-bottom: 0px;
     padding-top: 528px;
 }
 
-@media screen and (max-width:1264px) {
+@media screen and (max-width:1330px) {
     .main .activities .photo .gadgets .button {
-        padding-top:480px;
+        padding-top:520px;
         height: 40px;
         width: 130px;
     }
 }
 
-@media screen and (max-width:1181px) {
+@media screen and (max-width:1264px) {
     .main .activities .photo .gadgets .button {
-        padding-top:380px;
+        padding-top:480px;
         height: 35px;
         width: 110px;
     }
@@ -1087,7 +962,7 @@ padding-bottom: 0px;
 
 @media screen and (max-width:644px) {
     .main .activities .photo .gadgets .button {
-        padding-top:220px;
+        padding-top:330px;
         height: 20px;
         width: 70px;
     }
@@ -1097,86 +972,15 @@ padding-bottom: 0px;
     position: relative;
     display: flex;
     float: right;
-    width: 576px;
-    height: 600px;
+    width: 40%;
+    height: 38%;
     margin-top: 42px;
-    margin-right: 168px;
+    margin-right: 9.5%;
     background-color: black;
     background-image: url(../photo/building.jpg);
     background-size:cover;
 }
 
-@media screen and (max-width:1510px) {
-    .main .activities .photo .building {
-        margin-right: 150px;
-    }
-}
-
-@media screen and (max-width:1490px) {
-    .main .activities .photo .building {
-        margin-right: 120px;
-    }
-}
-
-@media screen and (max-width:1440px) {
-    .main .activities .photo .building {
-        margin-right: 100px;
-    }
-}
-
-@media screen and (max-width:1410px) {
-    .main .activities .photo .building {
-        margin-right: 80px;
-    }
-}
-
-@media screen and (max-width:1360px) {
-    .main .activities .photo .building {
-        margin-right: 60px;
-    }
-}
-
-@media screen and (max-width:1320px) {
-    .main .activities .photo .building {
-        margin-right: 40px;
-    }
-}
-
-@media screen and (max-width:1264px) {
-    .main .activities .photo .building {
-        width: 536px;
-        height: 550px;
-    }
-}
-
-@media screen and (max-width:1182px) {
-    .main .activities .photo .building {
-        width: 436px;
-        height: 450px;
-    }
-}
-
-@media screen and (max-width:975px) {
-    .main .activities .photo .building {
-        width: 336px;
-        height: 350px;
-    }
-}
-
-@media screen and (max-width:780px) {
-    .main .activities .photo .building {
-    float: none;
-    justify-self: center;
-    margin-right: 0px;
-    }
-}
-
-@media screen and (max-width:644px) {
-    .main .activities .photo .building {
-        width: 236px;
-        height: 250px;
-    }
-}
 
 .main .activities .photo .building .headline {
     position: absolute;
@@ -1187,16 +991,16 @@ padding-bottom: 0px;
     letter-spacing: 2px;
 }
 
-@media screen and (max-width:1264px) {
+@media screen and (max-width:1370px) {
     .main .activities .photo .building .headline {
-        padding-top: 380px;
+        padding-top: 420px;
         font-size: 12px;
     }
 }
 
-@media screen and (max-width:1181px) {
+@media screen and (max-width:1264px) {
     .main .activities .photo .building .headline {
-        padding-top: 300px;
+        padding-top: 380px;
         font-size: 11px;
     }
 }
@@ -1210,7 +1014,7 @@ padding-bottom: 0px;
 
 @media screen and (max-width:644px) {
     .main .activities .photo .building .headline {
-        padding-top: 150px;
+        padding-top: 250px;
         font-size: 7px;
     }
 }
@@ -1225,15 +1029,15 @@ padding-bottom: 0px;
     color: #C0C0C0;
 }
 
-@media screen and (max-width:1264px) {
+@media screen and (max-width:1370px) {
     .main .activities .photo .building .description {
-        padding-top: 410px;
+        padding-top: 450px;
         font-size: 12px;
     }
 }
-@media screen and (max-width:1181px) {
+@media screen and (max-width:1264px) {
     .main .activities .photo .building .description {
-        padding-top: 330px;
+        padding-top: 410px;
         font-size: 11px;
     }
 }
@@ -1247,7 +1051,7 @@ padding-bottom: 0px;
 
 @media screen and (max-width:644px) {
     .main .activities .photo .building .description {
-        padding-top: 170px;
+        padding-top: 270px;
         font-size: 7px;
     }
 }
@@ -1258,17 +1062,17 @@ padding-bottom: 0px;
     padding-top: 528px;
 }
 
-@media screen and (max-width:1264px) {
+@media screen and (max-width:1330px) {
     .main .activities .photo .building .button {
-        padding-top:480px;
+        padding-top:520px;
         height: 40px;
         width: 130px;
     }
 }
 
-@media screen and (max-width:1181px) {
+@media screen and (max-width:1264px) {
     .main .activities .photo .building .button {
-        padding-top:380px;
+        padding-top:480px;
         height: 35px;
         width: 110px;
     }
@@ -1282,10 +1086,9 @@ padding-bottom: 0px;
     }
 }
 
-
 @media screen and (max-width:644px) {
     .main .activities .photo .building .button {
-        padding-top:220px;
+        padding-top:330px;
         height: 20px;
         width: 70px;
     }
@@ -1294,85 +1097,13 @@ padding-bottom: 0px;
 .main .activities .photo .forest {
     position: relative;
     display: inline-block;
-    width: 576px;
-    height: 600px;
+    width: 40%;
+    height: 38%;
     margin-top: 42px;
-    margin-left: 168px;
+    margin-left: 9.5%;
     background-color: black;
     background-image: url(../photo/forest.jpg);
     background-size:cover;
-}
-
-@media screen and (max-width:1510px) {
-    .main .activities .photo .forest {
-        margin-left: 150px;
-    }
-}
-
-@media screen and (max-width:1490px) {
-    .main .activities .photo .forest {
-        margin-left: 130px;
-    }
-}
-
-@media screen and (max-width:1440px) {
-    .main .activities .photo .forest {
-        margin-left: 100px;
-    }
-}
-
-@media screen and (max-width:1400px) {
-    .main .activities .photo .forest {
-        margin-left: 80px;
-    }
-}
-
-@media screen and (max-width:1360px) {
-    .main .activities .photo .forest {
-        margin-left: 60px;
-    }
-}
-
-@media screen and (max-width:1320px) {
-    .main .activities .photo .forest {
-        margin-left: 40px;
-    }
-}
-
-
-@media screen and (max-width:1264px) {
-    .main .activities .photo .forest {
-        width: 536px;
-        height: 550px;
-    }
-}
-
-@media screen and (max-width:1182px) {
-    .main .activities .photo .forest {
-        width: 436px;
-        height: 450px;
-    }
-}
-
-@media screen and (max-width:975px) {
-    .main .activities .photo .forest {
-        width: 336px;
-        height: 350px;
-    }
-}
-
-@media screen and (max-width:780px) {
-    .main .activities .photo .forest {
-        justify-self: center;
-        margin-left: 0px;
-    }
-}
-
-@media screen and (max-width:644px) {
-    .main .activities .photo .forest {
-        width: 236px;
-        height: 250px;
-    }
 }
 
 .main .activities .photo .forest .headline {
@@ -1384,16 +1115,16 @@ padding-bottom: 0px;
     letter-spacing: 2px;
 }
 
-@media screen and (max-width:1264px) {
+@media screen and (max-width:1370px) {
     .main .activities .photo .forest .headline {
-        padding-top: 380px;
+        padding-top: 420px;
         font-size: 12px;
     }
 }
 
-@media screen and (max-width:1181px) {
+@media screen and (max-width:1264px) {
     .main .activities .photo .forest .headline {
-        padding-top: 290px;
+        padding-top: 370px;
         font-size: 11px;
     }
 }
@@ -1407,7 +1138,7 @@ padding-bottom: 0px;
 
 @media screen and (max-width:644px) {
     .main .activities .photo .forest .headline {
-        padding-top: 140px;
+        padding-top: 230px;
         font-size: 7px;
     }
 }
@@ -1422,16 +1153,16 @@ padding-bottom: 0px;
     color: #C0C0C0;
 }
 
-@media screen and (max-width:1264px) {
+@media screen and (max-width:1370px) {
     .main .activities .photo .forest .description {
-        padding-top: 410px;
+        padding-top: 450px;
         font-size: 12px;
     }
 }
 
-@media screen and (max-width:1181px) {
+@media screen and (max-width:1264px) {
     .main .activities .photo .forest .description {
-        padding-top: 320px;
+        padding-top: 400px;
         font-size: 11px;
     }
 }
@@ -1445,7 +1176,7 @@ padding-bottom: 0px;
 
 @media screen and (max-width:644px) {
     .main .activities .photo .forest .description {
-        padding-top: 160px;
+        padding-top: 250px;
         font-size: 7px;
     }
 }
@@ -1464,14 +1195,6 @@ padding-bottom: 0px;
     }
 }
 
-@media screen and (max-width:1181px) {
-    .main .activities .photo .forest .button {
-        padding-top:380px;
-        height: 35px;
-        width: 110px;
-    }
-}
-
 @media screen and (max-width:975px) {
     .main .activities .photo .forest .button {
         padding-top:300px;
@@ -1482,7 +1205,7 @@ padding-bottom: 0px;
 
 @media screen and (max-width:644px) {
     .main .activities .photo .forest .button {
-        padding-top:220px;
+        padding-top: 330px;
         height: 20px;
         width: 70px;
     }
@@ -1492,85 +1215,13 @@ padding-bottom: 0px;
     position: relative;
     display: inline-block;
     float: right;
-    width: 576px;
-    height: 600px;
+    width: 40%;
+    height: 38%;
     margin-top: 42px;
-    margin-right: 168px;
+    margin-right: 9.5%;
     background-color: black;
     background-image: url(../photo/animal.jpg);
     background-size:cover;
-}
-
-@media screen and (max-width:1510px) {
-    .main .activities .photo .animal {
-        margin-right: 150px;
-    }
-}
-
-@media screen and (max-width:1490px) {
-    .main .activities .photo .animal {
-        margin-right: 130px;
-    }
-}
-
-@media screen and (max-width:1440px) {
-    .main .activities .photo .animal {
-        margin-right: 100px;
-    }
-}
-
-@media screen and (max-width:1410px) {
-    .main .activities .photo .animal {
-        margin-right: 80px;
-    }
-}
-
-@media screen and (max-width:1360px) {
-    .main .activities .photo .animal {
-        margin-right: 60px;
-    }
-}
-
-@media screen and (max-width:1320px) {
-    .main .activities .photo .animal {
-        margin-right: 40px;
-    }
-}
-
-@media screen and (max-width:1264px) {
-    .main .activities .photo .animal {
-        width: 536px;
-        height: 550px;
-    }
-}
-
-@media screen and (max-width:1182px) {
-    .main .activities .photo .animal {
-        width: 436px;
-        height: 450px;
-    }
-}
-
-@media screen and (max-width:975px) {
-    .main .activities .photo .animal {
-        width: 336px;
-        height: 350px;
-    }
-}
-
-@media screen and (max-width:780px) {
-    .main .activities .photo .animal {
-        float: none;
-        justify-self: center;
-        margin-right: 0px;
-    }
-}
-
-@media screen and (max-width:644px) {
-    .main .activities .photo .animal {
-        width: 236px;
-        height: 250px;
-    }
 }
 
 .main .activities .photo .animal .headline {
@@ -1582,16 +1233,16 @@ padding-bottom: 0px;
     letter-spacing: 2px;
 }
 
-@media screen and (max-width:1264px) {
+@media screen and (max-width:1370px) {
     .main .activities .photo .animal .headline {
-        padding-top: 380px;
+        padding-top: 420px;
         font-size: 12px;
     }
 }
 
-@media screen and (max-width:1181px) {
+@media screen and (max-width:1264px) {
     .main .activities .photo .animal .headline {
-        padding-top: 290px;
+        padding-top: 370px;
         font-size: 11px;
     }
 }
@@ -1605,7 +1256,7 @@ padding-bottom: 0px;
 
 @media screen and (max-width:644px) {
     .main .activities .photo .animal .headline {
-        padding-top: 140px;
+        padding-top: 230px;
         font-size: 7px;
     }
 }
@@ -1620,16 +1271,16 @@ padding-bottom: 0px;
     color: #C0C0C0;
 }
 
-@media screen and (max-width:1264px) {
+@media screen and (max-width:1370px) {
     .main .activities .photo .animal .description {
-        padding-top: 410px;
+        padding-top: 450px;
         font-size: 12px;
     }
 }
 
-@media screen and (max-width:1181px) {
+@media screen and (max-width:1264px) {
     .main .activities .photo .animal .description {
-        padding-top: 310px;
+        padding-top: 400px;
         font-size: 11px;
     }
 }
@@ -1643,7 +1294,7 @@ padding-bottom: 0px;
 
 @media screen and (max-width:644px) {
     .main .activities .photo .animal .description {
-        padding-top: 160px;
+        padding-top: 250px;
         font-size: 7px;
     }
 }
@@ -1656,23 +1307,15 @@ padding-bottom: 0px;
 
 @media screen and (max-width:1264px) {
     .main .activities .photo .animal .button {
-        padding-top:480px;
+        padding-top: 480px;
         height: 40px;
         width: 130px;
     }
 }
 
-@media screen and (max-width:1181px) {
+@media screen and (max-width:975px) {
     .main .activities .photo .animal .button {
-        padding-top:380px;
-        height: 35px;
-        width: 110px;
-    }
-}
-
-@media screen and (max-width:1181px) {
-    .main .activities .photo .animal .button {
-        padding-top:300px;
+        padding-top: 300px;
         height: 30px;
         width: 90px;
     }
@@ -1680,7 +1323,7 @@ padding-bottom: 0px;
 
 @media screen and (max-width:644px) {
     .main .activities .photo .animal .button {
-        padding-top:220px;
+        padding-top: 330px;
         height: 20px;
         width: 70px;
     }
@@ -1697,19 +1340,19 @@ padding-bottom: 0px;
 
 @media screen and (max-width:1102px) {
     .main .mountain {
-    height: 400px;
+        height: 400px;
     }
 }
 
 @media screen and (max-width:748px) {
     .main .mountain {
-    height: 350px;
+        height: 350px;
     }
 }
 
 @media screen and (max-width:644px) {
     .main .mountain {
-    height: 280px;
+        height: 280px;
     }
 }
 
@@ -1818,140 +1461,140 @@ padding-bottom: 0px;
     }
 }
 
-.main .mountain .photo {
+.main .mountain .photos {
     margin-top: 200px;
     display: inline;
     float: right;
 }
 
 @media screen and (max-width:1102px) {
-    .main .mountain .photo {
-    margin-top: 90px;
+    .main .mountain .photos {
+        margin-top: 90px;
     }
 }
 
 @media screen and (max-width:748px) {
-    .main .mountain .photo {
-    margin-top: 100px;
+    .main .mountain .photos {
+        margin-top: 100px;
     }
 }
 
 @media screen and (max-width:644px) {
-    .main .mountain .photo {
-    margin-top: 80px;
+    .main .mountain .photos {
+        margin-top: 80px;
     }
 }
 
-.main .mountain .photo .photo1 {
+.main .mountain .photos .photo1 {
     width: 30px;
     height: 16px;
 }
 
 @media screen and (max-width:1102px) {
-    .main .mountain .photo .photo1 {
-    width: 25px;
-    height: 14px;
+    .main .mountain .photos .photo1 {
+        width: 25px;
+        height: 14px;
     }
 }
 
 @media screen and (max-width:748px) {
-    .main .mountain .photo .photo1 {
-    width: 20px;
-    height: 12px;
+    .main .mountain .photos .photo1 {
+        width: 20px;
+        height: 12px;
     }
 }
 
 @media screen and (max-width:644px) {
-    .main .mountain .photo .photo1 {
-    width: 15px;
-    height: 10px;
+    .main .mountain .photos .photo1 {
+        width: 15px;
+        height: 10px;
     }
 }
 
-.main .mountain .photo .photo2 {
+.main .mountain .photos .photo2 {
     width: 44px;
     height: 16px;
     margin:0 0 0 16px;
 }
 
 @media screen and (max-width:1102px) {
-    .main .mountain .photo .photo2 {
-    width: 36px;
-    height: 14px;
+    .main .mountain .photos .photo2 {
+        width: 36px;
+        height: 14px;
     }
 }
 
 @media screen and (max-width:748px) {
-    .main .mountain .photo .photo2 {
-    width: 28px;
-    height: 12px;
+    .main .mountain .photos .photo2 {
+        width: 28px;
+        height: 12px;
     }
 }
 
 @media screen and (max-width:644px) {
-    .main .mountain .photo .photo2 {
-    width: 42px;
-    height: 10px;
+    .main .mountain .photos .photo2 {
+        width: 42px;
+        height: 10px;
     }
 }
 
-.main .mountain .photo .photo3 {
+.main .mountain .photos .photo3 {
     width: 62px;
     height: 16px;
     margin:0 0 0 16px;
 }
 
 @media screen and (max-width:1102px) {
-    .main .mountain .photo .photo3 {
-    width: 52px;
-    height: 14px;
+    .main .mountain .photos .photo3 {
+        width: 52px;
+        height: 14px;
     }
 }
 
 @media screen and (max-width:748px) {
-    .main .mountain .photo .photo3 {
-    width: 42px;
-    height: 12px;
+    .main .mountain .photos .photo3 {
+        width: 42px;
+        height: 12px;
     }
 }
 
 @media screen and (max-width:644px) {
-    .main .mountain .photo .photo3 {
-    width: 32px;
-    height: 10px;
+    .main .mountain .photos .photo3 {
+        width: 32px;
+        height: 10px;
     }
 }
 
-.main .mountain .photo .photo4 {
+.main .mountain .photos .photo4 {
     width: 57px;
     height: 16px;
     margin:0 100px 0 16px;
 }
 
 @media screen and (max-width:1102px) {
-    .main .mountain .photo .photo4 {
-    width: 47px;
-    height: 14px;
+    .main .mountain .photos .photo4 {
+        width: 47px;
+        height: 14px;
     }
 }
 
 @media screen and (max-width:748px) {
-    .main .mountain .photo .photo4 {
-    width: 37px;
-    height: 12px;
+    .main .mountain .photos .photo4 {
+        width: 37px;
+        height: 12px;
     }
 }
 
 @media screen and (max-width:644px) {
-    .main .mountain .photo .photo4 {
-    width: 27px;
-    height: 10px;
+    .main .mountain .photos .photo4 {
+        width: 27px;
+        height: 10px;
     }
 }
 
 @media screen and (max-width:430px) {
-    .main .mountain .photo .photo4 {
-    margin-right: 20px;
+    .main .mountain .photos .photo4 {
+        margin-right: 20px;
     }
 }
 
@@ -1962,55 +1605,55 @@ padding-bottom: 0px;
 
 @media screen and (max-width:1264px) {
     .main .tools {
-    height: 470px;
+        height: 470px;
     }
 }
 
 @media screen and (max-width:1181px) {
     .main .tools {
-    height: 440px;
+        height: 440px;
     }
 }
 
 @media screen and (max-width:644px) {
     .main .tools {
-    height: 310px;
+        height: 310px;
     }
 }
 
 @media screen and (max-width:578px) {
     .main .tools {
-    height: 350px;
+        height: 350px;
     }
 }
 
 @media screen and (max-width:541px) {
     .main .tools {
-    height: 400px;
+        height: 400px;
     }
 }
 
 @media screen and (max-width:296px) {
     .main .tools {
-    height: 450px;
+        height: 450px;
     }
 }
 
 @media screen and (max-width:296px) {
     .main .tools {
-    height: 500px;
+        height: 500px;
     }
 }
 
 @media screen and (max-width:210px) {
     .main .tools {
-    height: 600px;
+        height: 600px;
     }
 }
 
 @media screen and (max-width:177px) {
     .main .tools {
-    height: 800px;
+        height: 800px;
     }
 }
 
@@ -2184,95 +1827,95 @@ padding-bottom: 0px;
     background-size:cover;
 }
 
-main .tools .image .photo {
+main .tools .image .photos {
 padding-top: 484px;
 float: right;
 }
 
 @media screen and (max-width:1264px) {
-    .main .tools .image .photo {
+    .main .tools .image .photos {
     padding-top: 400px;
     }
 }
 
 @media screen and (max-width:1181px) {
-    .main .tools .image .photo {
+    .main .tools .image .photos {
         padding-top: 370px;
     }
 }
 
 @media screen and (max-width:644px) {
-    .main .tools .image .photo {
+    .main .tools .image .photos {
         padding-top: 280px;
     }
 }
 
 @media screen and (max-width:578px) {
-    .main .tools .image .photo {
+    .main .tools .image .photos {
         padding-top: 300px;
     }
 }
 
 @media screen and (max-width:541px) {
-    .main .tools .image .photo {
+    .main .tools .image .photos {
         padding-top: 350px;
     }
 }
 
-main .tools .image .photo .photo1 {
+main .tools .image .photos .photo1 {
     width: 44px;
     height: 16px;  
 }
 
 @media screen and (max-width:1102px) {
-    main .tools .image .photo .photo1 {
-    width: 39px;
-    height: 14px;
+    main .tools .image .photos .photo1 {
+        width: 39px;
+        height: 14px;
     }
 }
 
 @media screen and (max-width:748px) {
-    main .tools .image .photo .photo1 {
-    width: 34px;
-    height: 12px;
+    main .tools .image .photos .photo1 {
+        width: 34px;
+        height: 12px;
     }
 }
 
 @media screen and (max-width:644px) {
-    main .tools .image .photo .photo1 {
-    width: 29px;
-    height: 10px;
+    main .tools .image .photos .photo1 {
+        width: 29px;
+        height: 10px;
     }
 }
 
-main .tools .image .photo .photo2 {
+main .tools .image .photos .photo2 {
     width: 50px;
     height: 16px;
     margin:0 0 0 16px
 }
 
 @media screen and (max-width:1102px) {
-    main .tools .image .photo .photo2 {
-    width: 42px;
-    height: 14px;
+    main .tools .image .photos .photo2 {
+        width: 42px;
+        height: 14px;
     }
 }
 
 @media screen and (max-width:748px) {
-    main .tools .image .photo .photo2 {
-    width: 34px;
-    height: 12px;
+    main .tools .image .photos .photo2 {
+        width: 34px;
+        height: 12px;
     }
 }
 
 @media screen and (max-width:644px) {
-    main .tools .image .photo .photo2 {
-    width: 28px;
-    height: 10px;
+    main .tools .image .photos .photo2 {
+        width: 28px;
+        height: 10px;
     }
 }
 
-main .tools .image .photo .photo3 {
+main .tools .image .photos .photo3 {
     width: 58px;
     height: 16px;
     margin:0 0 0 16px
@@ -2280,53 +1923,53 @@ main .tools .image .photo .photo3 {
 
 
 @media screen and (max-width:1102px) {
-    main .tools .image .photo .photo3 {
-    width: 48px;
-    height: 14px;
+    main .tools .image .photos .photo3 {
+        width: 48px;
+        height: 14px;
     }
 }
 
 @media screen and (max-width:748px) {
-    main .tools .image .photo .photo3 {
-    width: 38px;
-    height: 12px;
+    main .tools .image .photos .photo3 {
+        width: 38px;
+        height: 12px;
     }
 }
 
 @media screen and (max-width:644px) {
-    main .tools .image .photo .photo3 {
-    width: 28px;
-    height: 10px;
+    main .tools .image .photos .photo3 {
+        width: 28px;
+        height: 10px;
     }
 }
 
-main .tools .image .photo .photo4 {
+main .tools .image .photos .photo4 {
     width: 65px;
     height: 16px;
     margin:0 100px 0 16px
 }
 
 @media screen and (max-width:1102px) {
-    main .tools .image .photo .photo4 {
-    width: 55px;
-    height: 14px;
-    margin-right: 80px;
+    main .tools .image .photos .photo4 {
+        width: 55px;
+        height: 14px;
+        margin-right: 80px;
     }
 }
 
 @media screen and (max-width:748px) {
-    main .tools .image .photo .photo4 {
-    width: 45px;
-    height: 12px;
-    margin-right: 50px;
+    main .tools .image .photos .photo4 {
+        width: 45px;
+        height: 12px;
+        margin-right: 50px;
     }
 }
 
 @media screen and (max-width:644px) {
-    main .tools .image .photo .photo4 {
-    width: 35px;
-    height: 10px;
-    margin-right: 20px;
+    main .tools .image .photos .photo4 {
+        width: 35px;
+        height: 10px;
+        margin-right: 20px;
     }
 }
 
@@ -2340,19 +1983,19 @@ main .tools .image .photo .photo4 {
 
 @media screen and (max-width:1102px) {
     .main .leaves {
-    height: 400px;
+        height: 400px;
     }
 }
 
 @media screen and (max-width:748px) {
     .main .leaves {
-    height: 350px;
+        height: 350px;
     }
 }
 
 @media screen and (max-width:644px) {
     .main .leaves {
-    height: 280px;
+        height: 280px;
     }
 }
 
@@ -2460,142 +2103,142 @@ main .tools .image .photo .photo4 {
     }
 }
 
-.main .leaves .photo {
+.main .leaves .photos {
     margin-top: 200px;
     display: inline;
     float: right;
 }
 
 @media screen and (max-width:1102px) {
-    .main .leaves .photo {
-    margin-top: 90px;
+    .main .leaves .photos {
+        margin-top: 90px;
     }
 }
 
 @media screen and (max-width:748px) {
-    .main .leaves .photo {
-    margin-top: 100px;
+    .main .leaves .photos {
+        margin-top: 100px;
     }
 }
 
 @media screen and (max-width:644px) {
-    .main .leaves .photo {
-    margin-top: 80px;
+    .main .leaves .photos {
+        margin-top: 80px;
     }
 }
 
-.main .leaves .photo .photo1 {
+.main .leaves .photos .photo1 {
     width: 63px;
     height: 16px;
     margin:0 0 0 16px
 }
 
 @media screen and (max-width:1102px) {
-    .main .leaves .photo .photo1 {
-    width: 53px;
-    height: 14px;
+    .main .leaves .photos .photo1 {
+        width: 53px;
+        height: 14px;
     }
 }
 
 @media screen and (max-width:748px) {
-    .main .leaves .photo .photo1 {
-    width: 43px;
-    height: 12px;
+    .main .leaves .photos .photo1 {
+        width: 43px;
+        height: 12px;
     }
 }
 
 @media screen and (max-width:644px) {
-    .main .leaves .photo .photo1 {
-    width: 33px;
-    height: 10px;
+    .main .leaves .photos .photo1 {
+        width: 33px;
+        height: 10px;
     }
 }
 
-.main .leaves .photo .photo2 {
+.main .leaves .photos .photo2 {
     width: 49px;
     height: 16px;
     margin:0 0 0 16px
 }
 
 @media screen and (max-width:1102px) {
-    .main .leaves .photo .photo2 {
-    width: 39px;
-    height: 14px;
+    .main .leaves .photos .photo2 {
+        width: 39px;
+        height: 14px;
     }
 }
 
 @media screen and (max-width:748px) {
-    .main .leaves .photo .photo2 {
-    width: 29px;
-    height: 12px;
+    .main .leaves .photos .photo2 {
+        width: 29px;
+        height: 12px;
     }
 }
 
 @media screen and (max-width:644px) {
-    .main .mountain .photo .photo2 {
-    width: 20px;
-    height: 10px;
+    .main .mountain .photos .photo2 {
+        width: 20px;
+        height: 10px;
     }
 }
 
-.main .leaves .photo .photo3 {
+.main .leaves .photos .photo3 {
     width: 58px;
     height: 16px;
     margin:0 0 0 16px
 }
 
 @media screen and (max-width:1102px) {
-    .main .leaves .photo .photo3 {
+    .main .leaves .photos .photo3 {
     width: 48px;
     height: 14px;
     }
 }
 
 @media screen and (max-width:748px) {
-    .main .leaves .photo .photo3 {
-    width: 38px;
-    height: 12px;
+    .main .leaves .photos .photo3 {
+        width: 38px;
+        height: 12px;
     }
 }
 
 @media screen and (max-width:644px) {
-    .main .leaves .photo .photo3 {
-    width: 28px;
-    height: 10px;
+    .main .leaves .photos .photo3 {
+        width: 28px;
+        height: 10px;
     }
 }
 
-.main .leaves .photo .photo4{
+.main .leaves .photos .photo4{
     width: 85px;
     height: 16px;
     margin:0 100px 0 16px
 }
 
 @media screen and (max-width:1102px) {
-    .main .leaves .photo .photo4 {
-    width: 70px;
-    height: 14px;
+    .main .leaves .photos .photo4 {
+        width: 70px;
+        height: 14px;
     }
 }
 
 @media screen and (max-width:748px) {
-    .main .leaves .photo .photo4 {
-    width: 58px;
-    height: 12px;
+    .main .leaves .photos .photo4 {
+        width: 58px;
+        height: 12px;
     }
 }
 
 @media screen and (max-width:644px) {
-    .main .leaves .photo .photo4 {
-    width: 45px;
-    height: 10px;
+    .main .leaves .photos .photo4 {
+        width: 45px;
+        height: 10px;
     }
 }
 
 
 @media screen and (max-width:430px) {
-    .main .leaves .photo .photo4 {
-    margin-right: 20px;
+    .main .leaves .photos .photo4 {
+        margin-right: 20px;
     }
 }
 
@@ -2741,42 +2384,42 @@ main .tools .image .photo .photo4 {
     }
 }
 
-.main .clients .photo {
+.main .clients .photos {
     padding-top: 100px;
     text-align: center;
 }
 
 @media screen and (max-width:1264px) {
-    .main .clients .photo {
+    .main .clients .photos {
         padding-top: 90px;
     }
 }
 
 @media screen and (max-width:1181px) {
-    .main .clients .photo  {
+    .main .clients .photos {
         padding-top: 80px;
     }
 }
 
 @media screen and (max-width:975px) {
-    .main .clients .photo {
+    .main .clients .photos {
         padding-top: 65px;
     }
 }
 
 @media screen and (max-width:644px) {
-    .main .clients .photo {
+    .main .clients .photos {
         padding-top: 55px;
     }
 }
 
 @media screen and (max-width:333px) {
-    .main .clients .photo {
+    .main .clients .photos {
         padding-top: 45px;
     }
 }
 
-.main .clients .photo .photo1 {
+.main .clients .photos .photo1 {
     width: 128px;
     height: 30px;
     margin:0 0 0 0px
@@ -2784,55 +2427,55 @@ main .tools .image .photo .photo4 {
 
 
 @media screen and (max-width:1264px) {
-    .main .clients .photo .photo1 {
+    .main .clients .photos .photo1 {
         width: 110px;
         height: 28px;
     }
 }
 
 @media screen and (max-width:1181px) {
-    .main .clients .photo .photo1{
+    .main .clients .photos .photo1{
         width: 90px;
         height: 26px;
     }
 }
 
 @media screen and (max-width:975px) {
-    .main .clients .photo .photo1 {
+    .main .clients .photos .photo1 {
         width: 70px;
         height: 24px;
     }
 }
 
 @media screen and (max-width:644px) {
-    .main .clients .photo .photo1 {
+    .main .clients .photos .photo1 {
         width: 50px;
         height: 20px;
     }
 }
 
 @media screen and (max-width:333px) {
-    .main .clients .photo .photo1 {
+    .main .clients .photos .photo1 {
         width: 40px;
         height: 15px;
     }
 }
 
-.main .clients .photo .photo2 {
+.main .clients .photos .photo2 {
     width: 128px;
     height: 78px;
     margin:0 0 0 109px
 }
 
 @media screen and (max-width:1264px) {
-    .main .clients .photo .photo2 {
+    .main .clients .photos .photo2 {
         width: 110px;
         height: 28px;
     }
 }
 
 @media screen and (max-width:1181px) {
-    .main .clients .photo .photo2 {
+    .main .clients .photos .photo2 {
         width: 90px;
         height: 26px;
         margin-left: 90px;
@@ -2840,7 +2483,7 @@ main .tools .image .photo .photo4 {
 }
 
 @media screen and (max-width:975px) {
-    .main .clients .photo .photo2 {
+    .main .clients .photos .photo2 {
         width: 70px;
         height: 24px;
         margin-left: 60px;
@@ -2848,7 +2491,7 @@ main .tools .image .photo .photo4 {
 }
 
 @media screen and (max-width:644px) {
-    .main .clients .photo .photo2 {
+    .main .clients .photos .photo2 {
         width: 50px;
         height: 20px;
         margin-left: 20px;
@@ -2856,27 +2499,27 @@ main .tools .image .photo .photo4 {
 }
 
 @media screen and (max-width:333px) {
-    .main .clients .photo .photo2 {
+    .main .clients .photos .photo2 {
         width: 40px;
         height: 15px;
     }
 }
 
-.main .clients .photo .photo3 {
+.main .clients .photos .photo3 {
     width: 128px;
     height: 20px;
     margin:0 0 0 109px
 }
 
 @media screen and (max-width:1264px) {
-    .main .clients .photo .photo3 {
+    .main .clients .photos .photo3 {
         width: 110px;
         height: 28px;
     }
 }
 
 @media screen and (max-width:1181px) {
-    .main .clients .photo .photo3 {
+    .main .clients .photos .photo3 {
         width: 90px;
         height: 26px;
         margin-left: 90px;
@@ -2884,7 +2527,7 @@ main .tools .image .photo .photo4 {
 }
 
 @media screen and (max-width:975px) {
-    .main .clients .photo .photo3 {
+    .main .clients .photos .photo3 {
         width: 70px;
         height: 24px;
         margin-left: 60px;
@@ -2892,7 +2535,7 @@ main .tools .image .photo .photo4 {
 }
 
 @media screen and (max-width:644px) {
-    .main .clients .photo .photo3 {
+    .main .clients .photos .photo3 {
         width: 50px;
         height: 20px;
         margin-left: 20px;
@@ -2900,27 +2543,27 @@ main .tools .image .photo .photo4 {
 }
 
 @media screen and (max-width:333px) {
-    .main .clients .photo .photo3 {
+    .main .clients .photos .photo3 {
         width: 40px;
         height: 15px;
     }
 }
 
-.main .clients .photo .photo4{
+.main .clients .photos .photo4{
     width: 128px;
     height: 36px;
     margin:0 0 0 109px
 }
 
 @media screen and (max-width:1264px) {
-    .main .clients .photo .photo4 {
+    .main .clients .photos .photo4 {
         width: 110px;
         height: 28px;
     }
 }
 
 @media screen and (max-width:1181px) {
-    .main .clients .photo .photo4 {
+    .main .clients .photos .photo4 {
         width: 90px;
         height: 26px;
         margin-left: 90px;
@@ -2928,7 +2571,7 @@ main .tools .image .photo .photo4 {
 }
 
 @media screen and (max-width:975px) {
-    .main .clients .photo .photo4 {
+    .main .clients .photos .photo4 {
         width: 70px;
         height: 24px;
         margin-left: 60px;
@@ -2936,7 +2579,7 @@ main .tools .image .photo .photo4 {
 }
 
 @media screen and (max-width:644px) {
-    .main .clients .photo .photo4{
+    .main .clients .photos .photo4{
         width: 50px;
         height: 20px;
         margin-left: 20px;
@@ -2944,27 +2587,27 @@ main .tools .image .photo .photo4 {
 }
 
 @media screen and (max-width:333px) {
-    .main .clients .photo .photo4 {
+    .main .clients .photos .photo4 {
         width: 40px;
         height: 15px;
     }
 }
 
-.main .clients .photo .photo5{
+.main .clients .photos .photo5{
     width: 128px;
     height: 32px;
     margin:0 0 0 109px
 }
 
 @media screen and (max-width:1264px) {
-    .main .clients .photo .photo5 {
+    .main .clients .photos .photo5 {
         width: 110px;
         height: 28px;
     }
 }
 
 @media screen and (max-width:1181px) {
-    .main .clients .photo .photo5 {
+    .main .clients .photos .photo5 {
         width: 90px;
         height: 26px;
         margin-left: 90px;
@@ -2972,7 +2615,7 @@ main .tools .image .photo .photo4 {
 }
 
 @media screen and (max-width:975px) {
-    .main .clients .photo .photo5 {
+    .main .clients .photos .photo5 {
         width: 70px;
         height: 24px;
         margin-left: 60px;
@@ -2980,7 +2623,7 @@ main .tools .image .photo .photo4 {
 }
 
 @media screen and (max-width:644px) {
-    .main .clients .photo .photo5 {
+    .main .clients .photos .photo5 {
         width: 50px;
         height: 20px;
         margin-left: 20px;
@@ -2988,7 +2631,7 @@ main .tools .image .photo .photo4 {
 }
 
 @media screen and (max-width:333px) {
-    .main .clients .photo .photo5 {
+    .main .clients .photos .photo5 {
         width: 40px;
         height: 15px;
     }
@@ -3004,19 +2647,19 @@ main .tools .image .photo .photo4 {
 
 @media screen and (max-width:1102px) {
     .main .mountains {
-    height: 400px;
+        height: 400px;
     }
 }
 
 @media screen and (max-width:748px) {
     .main .mountains {
-    height: 350px;
+        height: 350px;
     }
 }
 
 @media screen and (max-width:644px) {
     .main .mountains {
-    height: 280px;
+        height: 280px;
     }
 }
 
@@ -3118,141 +2761,141 @@ main .tools .image .photo .photo4 {
     }
 }
 
-.main .mountains .photo {
+.main .mountains .photos {
     margin-top: 200px;
     display: inline;
     float: right;
 }
 
 @media screen and (max-width:1102px) {
-    .main .mountains .photo {
-    margin-top: 90px;
+    .main .mountains .photos {
+        margin-top: 90px;
     }
 }
 
 @media screen and (max-width:748px) {
-    .main .mountains .photo {
-    margin-top: 100px;
+    .main .mountains .photos {
+        margin-top: 100px;
     }
 }
 
 @media screen and (max-width:644px) {
-    .main .mountains .photo {
-    margin-top: 80px;
+    .main .mountains .photos {
+        margin-top: 80px;
     }
 }
 
-.main .mountains .photo .photo1 {
+.main .mountains .photos .photo1 {
     width: 34px;
     height: 16px;
     margin:0 0 0 16px
 }
 
 @media screen and (max-width:1102px) {
-    .main .mountains .photo .photo1 {
-    width: 30px;
-    height: 14px;
+    .main .mountains .photos .photo1 {
+        width: 30px;
+        height: 14px;
     }
 }
 
 @media screen and (max-width:748px) {
-    .main .mountains .photo .photo1 {
-    width: 26px;
-    height: 12px;
+    .main .mountains .photos .photo1 {
+        width: 26px;
+        height: 12px;
     }
 }
 
 @media screen and (max-width:644px) {
-    .main .mountains .photo .photo1 {
-    width: 22px;
-    height: 10px;
+    .main .mountains .photos .photo1 {
+        width: 22px;
+        height: 10px;
     }
 }
 
-.main .mountains .photo .photo2 {
+.main .mountains .photos .photo2 {
     width: 40px;
     height: 16px;
     margin:0 0 0 16px
 }
 
 @media screen and (max-width:1102px) {
-    .main .mountains .photo .photo2 {
-    width: 34px;
-    height: 14px;
+    .main .mountains .photos .photo2 {
+        width: 34px;
+        height: 14px;
     }
 }
 
 @media screen and (max-width:748px) {
-    .main .mountains .photo .photo2 {
-    width: 28px;
-    height: 12px;
+    .main .mountains .photos .photo2 {
+        width: 28px;
+        height: 12px;
     }
 }
 
 @media screen and (max-width:644px) {
-    .main .mountains .photo .photo2 {
-    width: 22px;
-    height: 10px;
+    .main .mountains .photos .photo2 {
+        width: 22px;
+        height: 10px;
     }
 }
 
-.main .mountains .photo .photo3 {
+.main .mountains .photos .photo3 {
     width: 62px;
     height: 16px;
     margin:0 0 0 16px
 }
 
 @media screen and (max-width:1102px) {
-    .main .mountains .photo .photo3 {
-    width: 52px;
-    height: 14px;
+    .main .mountains .photos .photo3 {
+        width: 52px;
+        height: 14px;
     }
 }
 
 @media screen and (max-width:748px) {
-    .main .mountains .photo .photo3 {
-    width: 42px;
-    height: 12px;
+    .main .mountains .photos .photo3 {
+        width: 42px;
+        height: 12px;
     }
 }
 
 @media screen and (max-width:644px) {
-    .main .mountains .photo .photo3 {
-    width: 32px;
-    height: 10px;
+    .main .mountains .photos .photo3 {
+        width: 32px;
+        height: 10px;
     }
 }
 
-.main .mountains .photo .photo4{
+.main .mountains .photos .photo4{
     width: 51px;
     height: 16px;
     margin:0 100px 0 16px
 }
 
 @media screen and (max-width:1102px) {
-    .main .mountains .photo .photo4 {
-    width: 45px;
-    height: 14px;
+    .main .mountains .photos .photo4 {
+        width: 45px;
+        height: 14px;
     }
 }
 
 @media screen and (max-width:748px) {
-    .main .mountains .photo .photo4 {
-    width: 37px;
-    height: 12px;
+    .main .mountains .photos .photo4 {
+        width: 37px;
+        height: 12px;
     }
 }
 
 @media screen and (max-width:644px) {
-    .main .mountains .photo .photo4 {
-    width: 29px;
-    height: 10px;
+    .main .mountains .photos .photo4 {
+        width: 29px;
+        height: 10px;
     }
 }
 
 @media screen and (max-width:430px) {
-    .main .mountains .photo .photo4 {
-    margin-right: 20px;
+    .main .mountains .photos .photo4 {
+        margin-right: 20px;
     }
 }
 
